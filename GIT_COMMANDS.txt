@@ -1,0 +1,38 @@
+ 
+https://github.com/D5-80720-RajdeepSutar/cpp_assignments
+ 
+D5-80720-RajdeepSutar
+
+PASSWORD : 
+
+ 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
+ 
+ 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
+ 
+-------------------------------------------------------------------------------------------------
+git status
+git add Assignment1_Q1.cpp **************to commit 1 file
+git add MySQL_PL_Exercise_3.sql
+
+git add . *************to commit whole folder
+
+git status
+git commit -m "assignments"
+git status
+
+git remote add origin https://github.com/D5-80720-RajdeepSutar-DAC/CPP-Assignments.git
+
+git branch -M main
+
+git push -u origin main
+
+
+git push
+
+
+
+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
+
+
+
+

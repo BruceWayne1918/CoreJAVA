@@ -1,0 +1,16 @@
+//create a thread by extending Thread class
+
+class Count extends Thread
+{
+	
+}
+
+
+public class Day21_2 {
+
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

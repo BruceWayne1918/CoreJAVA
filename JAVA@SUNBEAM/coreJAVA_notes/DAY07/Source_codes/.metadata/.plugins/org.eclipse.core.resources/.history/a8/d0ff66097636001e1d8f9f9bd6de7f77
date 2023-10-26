@@ -1,0 +1,39 @@
+
+//String and its methods
+
+public class Day7_4 {
+
+	public static void main(String[] args)
+	{
+		String s1 = "Sunbeam";
+		String s2 = "Sunbeam";
+		String s3 = "sunbeam";
+		char ch = s1.charAt(1);
+		System.out.println("Character at 1st location = "+ch);
+		System.out.println("Compare to = "+s1.compareTo(s2));
+		System.out.println("Compare to = "+s2.compareTo(s3));
+		//Compares two strings lexicographically.
+		// S = 83   // s = 115  
+		// 83 - 115 = -32 
+		
+		System.out.println("Compare to ignore case= "+s2.compareToIgnoreCase(s3));
+		
+	}
+}
+
+
+/*
+public class Day7_4 {
+
+	public static void main(String[] args)
+	{
+		String s1 = new String("Hello"); // NL 
+		System.out.println("S1 = "+s1);
+		System.out.println("S1 = "+(s1.concat("Everyone")));
+		System.out.println("S1 = "+s1 ); //immutable
+		s1 = s1.concat("Everyone");
+		System.out.println("S1 = "+s1 ); 
+	}
+
+}
+*/

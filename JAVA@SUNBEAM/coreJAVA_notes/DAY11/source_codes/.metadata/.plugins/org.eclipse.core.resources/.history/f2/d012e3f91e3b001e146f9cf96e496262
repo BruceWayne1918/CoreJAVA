@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+// try-block-handler
+// when we pass some resource in a try block
+// for eg. Scanner object is a resource 
+// because it uses system resource for taking input
+// keyboard, memory,cpu , stream etc... 
+//if we supply try-block-handler. 
+//writting catch block or finally is not compulsory
+
+public class Day11_2 {
+
+	public static void main(String[] args) 
+	{
+		int num1;
+		int num2;
+		int result;
+		try(Scanner sc = new Scanner(System.in))
+		{
+			System.out.println("Enter First number");
+			num1 = sc.nextInt();
+			System.out.println("Enter Second number");
+			num2 = sc.nextInt();
+			result = num1 / num2;
+			System.out.println("Result = "+result);
+		}
+
+	}
+
+}

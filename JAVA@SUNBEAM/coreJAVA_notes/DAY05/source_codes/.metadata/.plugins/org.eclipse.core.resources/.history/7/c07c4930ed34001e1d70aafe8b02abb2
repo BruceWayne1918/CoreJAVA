@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+
+public class Day5_8 
+{
+	int val;
+	Scanner sc=new Scanner(System.in);
+	void accept()
+	{
+		System.out.println("Enter one value : ");
+		val = sc.nextInt();
+	}
+	void disp()
+	{
+		System.out.println("Value = "+val);
+	}
+	public static void main(String[] args) 
+	{
+		
+		accept(); 
+		disp(); 
+
+	}
+
+}
+
+
+
+
+/*
+public class Day5_8 
+{
+	int val;
+	Scanner sc=new Scanner(System.in);
+	void accept()
+	{
+		System.out.println("Enter one value : ");
+		val = sc.nextInt();
+	}
+	void disp()
+	{
+		System.out.println("Value = "+val);
+	}
+	public static void main(String[] args) 
+	{
+		Day5_8 obj = new Day5_8(); // valid 
+		obj.accept(); //valid 
+		obj.disp(); //valid 
+
+	}
+
+}
+
+*/

@@ -1,0 +1,55 @@
+
+
+
+public class Day11_9 {
+
+	public static void main(String[] args) throws ArithmeticException,ArrayIndexOutOfBoundsException
+	{
+		try
+		{
+			int result = 30/5;
+			System.out.println("Result = "+result);
+		
+			int data[]= {10,20,30,40,50};
+			System.out.println("data[2] = "+data[2]);
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("Arithmetic Exception occured");
+		}
+		catch(ArrayIndexOutOfBoundsException e)
+		{
+			System.out.println("Index out of bound");
+		}
+	}
+
+}
+
+
+
+/*
+public class Day11_9 {
+
+	public static void main(String[] args) 
+	{
+		try
+		{
+			int result = 30/5;
+			System.out.println("Result = "+result);
+		
+			int data[]= {10,20,30,40,50};
+			System.out.println("data[2] = "+data[2]);
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("Arithmetic Exception occured");
+		}
+		catch(ArrayIndexOutOfBoundsException e)
+		{
+			System.out.println("Index out of bound");
+		}
+	}
+
+}
+
+*/

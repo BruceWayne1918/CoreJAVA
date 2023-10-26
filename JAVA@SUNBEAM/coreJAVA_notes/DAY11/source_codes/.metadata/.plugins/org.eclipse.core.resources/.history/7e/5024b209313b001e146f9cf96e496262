@@ -1,0 +1,12 @@
+// user defined exception class
+// custom exception
+
+public class Day11_11 {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

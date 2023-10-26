@@ -1,0 +1,29 @@
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+
+/*
+public class Day13_9 {
+
+	public static void main(String[] args)
+	{
+		//Queue<String> q = new PriorityQueue<String>(); // UPCASTING
+		PriorityQueue<String> q = new PriorityQueue<String>();
+		q.add("Sunbeam");
+		q.add("CoreJava");
+		q.add("Python");
+		q.add("C++");
+		
+		System.out.println("Queue Elements = "+q);
+		q.remove();
+		q.remove();
+		System.out.println("Queue Elements = "+q);
+		q.remove();
+		q.remove();
+		System.out.println("Queue Elements = "+q);
+		System.out.println(q.remove());  //NoSuchElementException
+		
+	}
+
+}
+*/

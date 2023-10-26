@@ -1,0 +1,21 @@
+enum Color
+{
+	RED,GREEN,BLUE; // 0  ,  1   , 2 
+}
+public class Day7_1 {
+
+	public static void main(String[] args) 
+	{
+		Color value = Color.RED;
+		System.out.println("ordinal for red = "+value.ordinal()+" Name = "+value.name);
+		
+		value = Color.GREEN;
+		System.out.println("ordinal for green = "+value.ordinal());
+		
+		value = Color.BLUE;
+		System.out.println("ordinal for blue = "+value.ordinal());
+				
+		
+	}
+
+}

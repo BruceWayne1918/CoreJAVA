@@ -1,0 +1,15 @@
+
+public class Day6_7 {
+
+	public static void main(String[] args)
+	{
+		int a1[]=new int[5];
+		float a2[]=new float[4];
+		byte a3[]=new byte[4];
+		char a4[]=new char[6];
+		double a5[]=new double[5];
+		
+
+	}
+
+}

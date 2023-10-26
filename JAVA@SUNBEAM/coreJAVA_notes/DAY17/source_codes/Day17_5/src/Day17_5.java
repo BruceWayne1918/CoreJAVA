@@ -1,0 +1,17 @@
+// third way is to directly store .class file in reference variable of type Class
+
+
+class Test
+{
+	
+}
+
+public class Day17_5 {
+
+	public static void main(String[] args) {
+		
+		Class c = Test.class;
+		System.out.println(c.getName());
+	}
+
+}

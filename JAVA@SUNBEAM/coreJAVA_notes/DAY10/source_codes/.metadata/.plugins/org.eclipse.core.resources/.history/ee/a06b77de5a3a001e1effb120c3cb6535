@@ -1,0 +1,18 @@
+class Test
+{
+	int num;
+	Test(int num)
+	{
+		this.num=num;
+	}
+}
+public class Day10_1 {
+
+	public static void main(String[] args)
+	{
+		Test tobj = new Test(10);
+		
+		
+	}
+
+}

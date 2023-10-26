@@ -1,0 +1,19 @@
+package p1;
+
+// NetworkPrinter is the implementing the interface Printer 
+// implementing the interface means , we must have definition of all the
+// methods declared inside the interface
+
+public class NetworkPrinter implements Printer
+{
+
+	@Override
+	public void print(String msg) 
+	{
+		System.out.println("Inside Print method of network printer"+msg);
+		
+	}
+	
+	
+
+}

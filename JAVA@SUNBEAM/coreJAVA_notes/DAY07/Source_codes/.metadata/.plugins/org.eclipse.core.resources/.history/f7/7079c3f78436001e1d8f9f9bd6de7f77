@@ -1,0 +1,84 @@
+
+import java.util.StringTokenizer;
+
+public class Day7_8 {
+
+	public static void main(String[] args) 
+	{
+		String str = "https://admission.sunbeaminfo.com/aspx/RegistrationForm.aspx?BatchID=49Z3yJhg91aSToMmilL1rg==";
+		StringTokenizer stk = new StringTokenizer(str,":/.?=");
+		while(stk.hasMoreTokens())
+			System.out.println("Token = "+stk.nextToken());
+	}
+
+}
+
+
+
+
+
+/*
+public class Day7_8 {
+
+	public static void main(String[] args) 
+	{
+		String str = "https://admission.sunbeaminfo.com/aspx/RegistrationForm.aspx?BatchID=49Z3yJhg91aSToMmilL1rg==";
+		StringTokenizer stk = new StringTokenizer(str,":/.?=");
+		while(stk.hasMoreTokens())
+			System.out.println("Token = "+stk.nextToken());
+	}
+
+}
+
+*/
+
+
+/*
+public class Day7_8 {
+
+	public static void main(String[] args) 
+	{
+		String str = "students.sunbeamapps.org";
+		StringTokenizer stk = new StringTokenizer(str,".");
+		while(stk.hasMoreTokens())
+			System.out.println("Token = "+stk.nextToken());
+	}
+
+}
+*/
+
+/*
+
+// The tokenizer uses the default delimiter set, which is " \t\n\r\f"
+public class Day7_8 {
+
+	public static void main(String[] args) 
+	{
+		String str = "Sunbeam Infotech Pune Karad";
+		StringTokenizer stk = new StringTokenizer(str);
+		while(stk.hasMoreTokens())
+			System.out.println("Token = "+stk.nextToken());
+	}
+
+}
+
+*/
+
+
+
+/*
+
+//counting the tokens 
+
+public class Day7_8 {
+
+	public static void main(String[] args) 
+	{
+		String str = "Sunbeam Infotech Pune Karad";
+		StringTokenizer stk = new StringTokenizer(str);
+		int count = stk.countTokens();
+		System.out.println("Count = "+count);
+	}
+
+}
+*/

@@ -1,0 +1,18 @@
+// enum ==> Enumeration
+// improve the readability of the code 
+
+// RED ==> 0
+// GREEN ==> 1
+// BLUE ==> 2
+
+
+
+public class Day6_12 {
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

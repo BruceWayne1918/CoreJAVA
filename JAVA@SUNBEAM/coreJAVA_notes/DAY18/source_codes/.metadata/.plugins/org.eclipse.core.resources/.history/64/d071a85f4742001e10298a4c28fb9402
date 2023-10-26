@@ -1,0 +1,28 @@
+@FunctionalInterface
+interface Sum
+{
+	int m1(int a,int b);
+}
+
+@FunctionalInterface
+interface Sub
+{
+	int m2(int a,int b);
+}
+
+
+public class Day18_7 
+{
+
+	public static void main(String[] args) 
+	{
+		Sum s1 = (x,y) -> {return x + y;};
+		Sub s2 = (x,y) -> { return x-y;};
+		
+		System.out.println(s1.m1(50,20));
+		System.out.println(s2.m2(9,3));
+		
+
+	}
+
+}

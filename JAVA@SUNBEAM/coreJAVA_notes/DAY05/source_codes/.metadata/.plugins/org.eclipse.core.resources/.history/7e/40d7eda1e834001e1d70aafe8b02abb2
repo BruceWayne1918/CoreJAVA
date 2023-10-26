@@ -1,0 +1,64 @@
+//static fields are called as class level fields
+// so we generally don't use this keyword with static fields
+
+// static initializer block gets called at the time of class loading
+// it is called before the constructor gets called
+
+
+class Bank
+{
+	static int balance; // static field
+	// static fields must be initialized only once through out the life cycle
+	
+	int accno; // non static field 
+	//static initializer block
+	static
+	{
+		System.out.println("Inside Static initializer block");
+		balance = 5000;
+	}
+	
+	Bank()
+	{
+		System.out.println("Inside Parameterless Constructor");
+		this.accno=1;
+		
+	}
+	
+	void disp()
+	{
+		System.out.println("Account no = "+this.accno);
+	}
+	void viewBalance()
+	{
+		System.out.println("Balance = "+this.balance);
+	}
+	void deposit()
+	{
+		balance+=1000; // modifying the static field 
+	}
+	void withdraw()
+	{
+		balance = balance-500;// modifying the static field
+	}
+	
+}
+
+public class Day5_5 {
+
+	public static void main(String[] args)
+	{
+		Bank b1 = new Bank();
+		b1.disp();
+		b1.viewBalance();
+		b1.deposit();
+		b1.viewBalance();
+		b1.deposit();
+		b1.viewBalance();
+		b1.withdraw();
+		b1.viewBalance();
+		
+		
+	}
+
+}

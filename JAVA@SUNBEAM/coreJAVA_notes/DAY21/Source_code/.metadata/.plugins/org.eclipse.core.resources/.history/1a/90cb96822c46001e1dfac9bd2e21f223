@@ -1,0 +1,18 @@
+class Even implements Runnable
+{
+	Even()
+	{
+		System.out.println("Even Constructor Called");
+		Thread th = new Thread(this,"MyEvenNumber");
+		th.start();
+	}
+	
+}
+public class Day21_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

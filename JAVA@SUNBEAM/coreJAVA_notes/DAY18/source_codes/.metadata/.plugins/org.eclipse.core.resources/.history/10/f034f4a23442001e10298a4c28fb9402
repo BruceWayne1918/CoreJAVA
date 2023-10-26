@@ -1,0 +1,45 @@
+interface Shape
+{
+	float PI =3.14f;
+	void area();
+	default void disp()
+	{
+		System.out.println("PI = "+PI);
+		System.out.println("inside disp of default method");
+	}
+	
+}
+
+class Rectangle implements Shape
+{
+
+	@Override
+	public void area() 
+	{
+		int l = 20;
+		int b = 5;
+		System.out.println("Area of Rectangle = "+(l*b));
+		
+	}
+	
+}
+
+class Circle implements Shape
+{
+
+	@Override
+	public void area() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+public class Day18_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

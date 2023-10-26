@@ -1,0 +1,132 @@
+import java.util.ArrayList;
+
+public class Day16_9 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList al = new ArrayList();
+		al.add(25);
+		al.add("Sunbeam");
+		al.add(9.8);
+		
+		ArrayList a2 = new ArrayList();
+		
+		
+	}
+
+}
+
+
+
+/*
+//single valued annotation
+
+public class Day16_9 {
+
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args) 
+	{
+		@SuppressWarnings("rawtypes")
+		ArrayList al = new ArrayList();
+		al.add(25);
+		al.add("Sunbeam");
+		al.add(9.8);
+		
+		@SuppressWarnings("rawtypes")
+		ArrayList a2 = new ArrayList();
+		
+		
+	}
+
+}
+
+*/
+
+
+
+
+/*
+// example of @Override
+
+class Student
+{
+	int rollno;
+
+	@Override
+	public String toString() {
+		return "Student [rollno=" + rollno + "]";
+	}
+	
+	
+}
+
+public class Day16_9 {
+
+	public static void main(String[] args) 
+	{
+				
+	}
+
+}
+
+*/
+
+
+
+
+/*
+//example of annotation Deprecated
+public class Day16_9 {
+
+	public static void main(String[] args) 
+	{
+		@Deprecated
+		Integer i = new Integer(25);
+		System.out.println("I = "+i);
+			
+	}
+
+}
+*/
+
+
+/*
+// Override annotation example
+class Person
+{
+	
+	int id;
+	
+	void disp()
+	{
+		System.out.println("inside person class disp method");
+	}
+}
+class Employee extends Person
+{
+	
+	void m1()  // non overridden method
+	{
+		System.out.println("inside method m1");
+	}
+	
+	//the target for using the annotation @Override is a method
+		
+	@Override
+	void disp() // overridden method
+	{
+		super.disp();
+		System.out.println("inside employee class disp method");
+	}
+}
+public class Day16_9 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}
+
+
+*/

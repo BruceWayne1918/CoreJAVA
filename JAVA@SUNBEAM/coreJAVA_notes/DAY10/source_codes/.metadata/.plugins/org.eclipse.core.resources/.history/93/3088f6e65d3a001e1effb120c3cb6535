@@ -1,0 +1,11 @@
+
+public class Day10_3 {
+
+	public static void main(String[] args) 
+	{
+		Demo d1 = new Demo(5,4);
+		
+
+	}
+
+}

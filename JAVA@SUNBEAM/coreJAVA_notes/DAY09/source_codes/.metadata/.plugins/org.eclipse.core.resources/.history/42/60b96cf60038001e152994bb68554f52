@@ -1,0 +1,17 @@
+package p1;
+
+// NetworkPrinter is the implementing the interface Printer 
+
+public class NetworkPrinter implements Printer
+{
+
+	@Override
+	public void print(String msg) 
+	{
+		System.out.println("Inside Print method of network printer"+msg);
+		
+	}
+	
+	
+
+}

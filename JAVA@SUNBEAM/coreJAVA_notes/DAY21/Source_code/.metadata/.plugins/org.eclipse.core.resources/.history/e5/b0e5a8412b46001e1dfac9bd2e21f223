@@ -1,0 +1,33 @@
+class Count implements Runnable
+{
+	Count()
+	{
+		System.out.println("Inside Constructor");
+	}
+	public void run()
+	{
+		try
+		{
+			for(int i=0;i<5;i++)
+			{
+				System.out.println("Count = "+i);
+				Thread.sleep(2000);
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+	
+}
+public class Day21_5 {
+
+	public static void main(String[] args) 
+	{
+		Count cnt = new Count();
+		
+
+	}
+
+}

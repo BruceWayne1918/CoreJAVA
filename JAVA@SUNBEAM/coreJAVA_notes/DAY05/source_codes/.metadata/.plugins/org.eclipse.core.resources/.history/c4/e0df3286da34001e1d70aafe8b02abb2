@@ -1,0 +1,15 @@
+package p1;
+
+public class Student 
+{
+	private int rollno;
+	private int marks;
+	public Student() 
+	{
+		
+	}
+	
+	
+	
+	
+}

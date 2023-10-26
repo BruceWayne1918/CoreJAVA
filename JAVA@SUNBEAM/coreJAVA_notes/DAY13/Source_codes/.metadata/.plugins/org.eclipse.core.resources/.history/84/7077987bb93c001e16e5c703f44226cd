@@ -1,0 +1,126 @@
+import java.util.Iterator;
+import java.util.Stack;
+
+public class Day13_2 
+{
+
+	public static void main(String[] args) 
+	{
+		//create object of Stack type
+		Stack<Integer> stk = new Stack<Integer>();
+		stk.push(10);
+		stk.push(20);
+		stk.push(30);
+		stk.push(40);
+		stk.push(50);
+		stk.push(60);
+		stk.push(70);
+		System.out.println("Stack contents = "+stk); // stk.toSting()
+		
+		System.out.println("Element 10 is present at "+stk.search(10));
+		System.out.println("Element 60 is present at "+stk.search(60));
+	}
+}
+
+
+
+/*
+public class Day13_2 
+{
+
+	public static void main(String[] args) 
+	{
+		//create object of Stack type
+		Stack<Integer> stk = new Stack<Integer>();
+		stk.push(10);
+		stk.push(20);
+		stk.push(30);
+		stk.push(40);
+		System.out.println("Stack contents = "+stk); // stk.toString()
+		System.out.println("is stack Empty?? "+stk.empty());
+		while(!stk.empty())
+		{
+			int element = stk.peek();
+			System.out.println("Element at top ="+element);
+			System.out.println("Pop element "+stk.pop());
+		}
+		
+		System.out.println("is stack Empty?? "+stk.empty());
+	}
+}
+
+*/
+
+/*
+public class Day13_2 
+{
+
+	public static void main(String[] args) 
+	{
+		//create object of Stack type
+		Stack<Integer> stk = new Stack<Integer>();
+		stk.push(10);
+		stk.push(20);
+		stk.push(30);
+		stk.push(40);
+		System.out.println("Stack contents = "+stk); // stk.toString()
+		System.out.println("is stack Empty?? "+stk.empty());
+		while(!stk.empty())
+			System.out.println("Pop element "+stk.pop());
+		
+		System.out.println("is stack Empty?? "+stk.empty());
+	}
+}
+*/
+
+
+
+
+/*
+public class Day13_2 
+{
+
+	public static void main(String[] args) 
+	{
+		//create object of Stack type
+		Stack<Integer> stk = new Stack<Integer>();
+		stk.push(10);
+		stk.push(20);
+		stk.push(30);
+		stk.push(40);
+		System.out.println("Stack contents = "+stk); // stk.toString()
+		System.out.println("Element popped out = "+stk.pop());
+		System.out.println("Element popped out = "+stk.pop());
+		System.out.println("Element popped out = "+stk.pop());
+		System.out.println("Element popped out = "+stk.pop());
+		System.out.println("Element popped out = "+stk.pop());
+		
+	}
+}
+*/
+
+
+
+
+/*
+public class Day13_2 {
+
+	public static void main(String[] args) 
+	{
+		//create object of Stack type
+		Stack<Integer> stk = new Stack<Integer>();
+		stk.push(10);
+		stk.push(20);
+		stk.push(30);
+		stk.push(40);
+		System.out.println("Stack contents = "+stk); // stk.toString()
+		
+		Iterator<Integer> itr = stk.iterator();
+		while(itr.hasNext())
+			System.out.print(itr.next()+"\t");
+		
+		
+	}
+
+}
+*/

@@ -1,0 +1,10 @@
+
+public class Day21_1 {
+
+	public static void main(String[] args) 
+	{
+		Thread.currentThread();
+		
+	}
+
+}

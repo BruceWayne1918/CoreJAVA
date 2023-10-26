@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Day6_2 {
+
+	public static void main(String[] args)
+	{
+		Scanner sc= new Scanner(System.in);
+		int n;
+		System.out.println("Enter the number of elements : ");
+		n =sc.nextInt();
+		int a[]=new int[n];
+		int b[]=new int[n];
+		int c[]=new int[n];
+		
+		System.out.println("Please enter array elements for A array :");
+		
+		for(int i =0 ;i<a.length;i++)
+			a[i]=sc.nextInt();
+		System.out.println();
+		System.out.println("Please enter array elements for B array :");
+		
+		for(int i =0 ;i<b.length;i++)
+			b[i]=sc.nextInt();
+		
+		System.out.println("A Array elements are : ");
+		for(int i=0;i<a.length;i++)
+			System.out.print(a[i]+"\t");
+		
+		System.out.println("B Array elements are : ");
+		for(int i=0;i<b.length;i++)
+			System.out.print(b[i]+"\t");
+		
+		for(int i=0;i<c.length;i++)
+			c[i]=a[i]+b[i];
+		
+		System.out.println("C Array elements are : ");
+		for(int i=0;i<c.length;i++)
+			System.out.print(c[i]+"\t");
+
+	}
+
+}

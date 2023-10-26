@@ -1,0 +1,13 @@
+
+public class Day3_3 {
+
+	public static void main(String[] args) 
+	{
+		String n1 = "123"; // n1 ==> String ==> NP type
+		// String to int
+		// NP to P ==> Unboxing
+		
+
+	}
+
+}

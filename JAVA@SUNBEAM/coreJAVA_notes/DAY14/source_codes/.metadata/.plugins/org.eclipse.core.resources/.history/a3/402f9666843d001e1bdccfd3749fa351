@@ -1,0 +1,17 @@
+import java.util.HashSet;
+
+// LinkedHashSet 
+public class Day14_3 {
+
+	public static void main(String[] args)
+	{
+		LinkedHashSet<Integer> lhs = new LinkedHashSet<Integer>();
+		hs.add(213);
+		hs.add(345);
+		hs.add(123);
+		hs.add(789);
+		hs.add(123);
+
+	}
+
+}

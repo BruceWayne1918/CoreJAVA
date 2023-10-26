@@ -1,0 +1,15 @@
+import java.io.File;
+
+public class DAy15_2 {
+
+	public static void main(String[] args) 
+	{
+		try
+		{
+			String pathname = "Test.txt";
+			File fobj=new File(pathname);
+		}
+
+	}
+
+}

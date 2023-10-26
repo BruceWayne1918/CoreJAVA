@@ -1,0 +1,26 @@
+interface TestInterface
+{
+	// abstract method declaration
+	public void square(int a); 
+	
+}
+
+
+
+public class Day18_1 implements TestInterface 
+{
+	
+	//define square() compulsory
+	
+	public void sqaure(int a)
+	{
+		System.out.println("Area = "+(a*a));
+	}
+	
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

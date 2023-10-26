@@ -1,0 +1,83 @@
+package p1;
+
+import java.util.Scanner;
+
+// final keyword ==> constant
+
+//final field
+class Demo
+{
+	final float PI=3.14f;  // final field 
+	int num1; //non final field
+	int num2; //non final field 
+	
+	Demo()
+	{
+		this.num1=5;
+		this.num2=5;
+	}
+	void disp()
+	{
+		System.out.println("Num1 = "+num1+" Num2 = "+num2+" PI = "+PI);
+	}
+}
+
+
+public class Day5_4 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+}
+
+
+
+
+
+
+
+
+/*
+// accepting final variable data from user
+
+public class Day5_4 {
+
+	public static void main(String[] args) 
+	{
+		final int val;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Please enter value ");
+		val = sc.nextInt();
+		System.out.println("Value = "+val);
+		//val++; // javac error 
+		
+	}
+}
+
+*/
+
+
+
+
+
+
+
+/*
+//final variable 
+public class Day5_4 {
+
+	public static void main(String[] args) 
+	{
+		final int num = 55; // final variable 
+		System.out.println("Num = "+num);
+		//num+=10; // can not modify final variable 
+		//System.out.println("Num = "+num);
+		final float PI = 3.14f;
+		System.out.println("PI = "+PI);
+		//PI++; // compile time error // javac  error 
+		
+	}
+
+}
+*/

@@ -1,0 +1,19 @@
+
+//StringBuffer
+//A thread-safe, mutable sequence of characters
+//String buffers are safe for use by multiple threads
+// append() and insert() methods 
+
+public class Day7_6 {
+
+	public static void main(String[] args) 
+	{
+		StringBuffer sb1=new StringBuffer("Sunbeam");
+		System.out.println("SB1 = "+sb1);
+		sb1.append("Infotech");
+		System.out.println("SB1 = "+sb1); // Mutable 
+		
+
+	}
+
+}

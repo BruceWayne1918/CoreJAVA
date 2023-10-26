@@ -1,0 +1,13 @@
+import java.io.File;
+
+public class Day15_3 {
+
+	public static void main(String[] args)
+	{
+		String pathname = "C:/Users/sunbeam/Desktop/Code/DAY15/DAy15_2/src/DAy15_2.java";
+		File fobj = new File(pathname);
+		System.out.println("Exists = "+fobj.exists());
+
+	}
+
+}

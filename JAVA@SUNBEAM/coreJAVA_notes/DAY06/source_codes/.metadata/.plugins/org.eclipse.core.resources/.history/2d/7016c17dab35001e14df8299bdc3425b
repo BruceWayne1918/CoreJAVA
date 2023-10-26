@@ -1,0 +1,60 @@
+import java.util.Arrays;
+
+// Methods of Arrays class
+
+
+public class Day6_8 {
+
+	public static void main(String[] args) 
+	{
+		int a[]= new int[5];
+		Arrays.fill(a, 4);
+		
+	}
+}
+
+
+/*
+public class Day6_8 {
+
+	public static void main(String[] args) 
+	{
+		int a[]= {11,22,33,44,55};
+		int b[]= {11,22,33,44,55};
+		System.out.println("A equals B = "+Arrays.equals(a, b));
+	}
+}
+*/
+
+
+/*
+public class Day6_8 {
+
+	public static void main(String[] args) 
+	{
+		int a1[]= {11,22,33,44,55};
+		System.out.println("Search element 33 = "+Arrays.binarySearch(a1, 33));
+		System.out.println("Search element 44 = "+Arrays.binarySearch(a1, 44));
+		System.out.println("Search element 88 = "+Arrays.binarySearch(a1, 88));
+	}
+}
+
+*/
+
+
+
+/*
+public class Day6_8 {
+
+	public static void main(String[] args) 
+	{
+		int a1[]= {10,20,30,40,50,60,70,80};
+		int result = Arrays.binarySearch(a1, 168);
+		System.out.println("Result = "+result);
+		//index of the search key, if it is contained in the array
+		//otherwise, (-(insertion point) - 1)
+		
+	}
+
+}
+*/

@@ -1,0 +1,12 @@
+package p2;
+
+public class Day5_3 {
+
+	public static void main(String[] args) 
+	{
+		Student s1 = new Student(25,85);
+		Faculty f1 = new Faculty(123,"emp1");
+
+	}
+
+}

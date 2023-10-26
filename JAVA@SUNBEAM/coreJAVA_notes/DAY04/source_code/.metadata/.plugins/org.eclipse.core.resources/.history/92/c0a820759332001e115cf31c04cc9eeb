@@ -1,0 +1,72 @@
+class Employee
+{
+	private String name;
+	private int empid;
+	private float salary;
+	private int deptid;
+	
+	public Employee() 
+	{
+		this.name="DEFAULT";
+		this.empid=1;
+		this.salary=50000;
+		this.deptid=1;
+		
+	}
+
+	public Employee(String name, int empid, float salary, int deptid) {
+		
+		this.name = name;
+		this.empid = empid;
+		this.salary = salary;
+		this.deptid = deptid;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getEmpid() {
+		return empid;
+	}
+
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
+
+	public float getSalary() {
+		return salary;
+	}
+
+	public void setSalary(float salary) {
+		this.salary = salary;
+	}
+
+	public int getDeptid() {
+		return deptid;
+	}
+
+	public void setDeptid(int deptid) {
+		this.deptid = deptid;
+	}
+	
+	
+	
+	
+	
+	
+}
+
+
+public class Day4_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

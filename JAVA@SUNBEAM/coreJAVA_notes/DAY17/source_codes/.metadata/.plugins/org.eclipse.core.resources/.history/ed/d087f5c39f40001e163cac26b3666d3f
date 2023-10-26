@@ -1,0 +1,18 @@
+class Person
+{
+	String name;
+	String org;
+	String desg;
+	
+	Person()
+}
+
+
+public class Day17_1 {
+
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

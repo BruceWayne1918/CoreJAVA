@@ -1,0 +1,53 @@
+public class Day16_9 {
+
+	public static void main(String[] args) 
+	{
+		@Deprecated
+		Integer i = new Integer(25);
+		
+	}
+
+}
+
+
+
+/*
+// Override annotation example
+class Person
+{
+	
+	int id;
+	
+	void disp()
+	{
+		System.out.println("inside person class disp method");
+	}
+}
+class Employee extends Person
+{
+	
+	void m1()  // non overridden method
+	{
+		System.out.println("inside method m1");
+	}
+	
+	//the target for using the annotation @Override is a method
+		
+	@Override
+	void disp() // overridden method
+	{
+		super.disp();
+		System.out.println("inside employee class disp method");
+	}
+}
+public class Day16_9 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}
+
+
+*/

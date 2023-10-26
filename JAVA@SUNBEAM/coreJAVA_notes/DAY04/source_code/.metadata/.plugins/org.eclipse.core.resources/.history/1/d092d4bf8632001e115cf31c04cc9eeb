@@ -1,0 +1,15 @@
+class Student
+{
+	private int rollno;
+	private String grade;
+	
+	
+}
+public class Day4_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

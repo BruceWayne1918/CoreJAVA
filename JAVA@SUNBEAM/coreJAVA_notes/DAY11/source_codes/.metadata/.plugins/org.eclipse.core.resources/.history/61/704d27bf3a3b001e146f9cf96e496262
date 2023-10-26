@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class Day11_13 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList l1 = new ArrayList(); // RAW TYPE
+		l1.add(10);
+		l1.add(5);
+		l1.add(25);
+		l1.add("sunbeam");
+		l1.add(5.5);
+		System.out.println(l1);
+
+	}
+
+}

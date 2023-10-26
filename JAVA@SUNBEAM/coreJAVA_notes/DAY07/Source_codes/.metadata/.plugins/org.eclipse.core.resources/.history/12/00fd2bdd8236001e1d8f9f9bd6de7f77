@@ -1,0 +1,10 @@
+
+public class Day7_8 {
+
+	public static void main(String[] args) 
+	{
+		String str = "Sunbeam Infotech Pune Karad";
+		StringTokenizer stk = new StringTokenizer(str);
+	}
+
+}

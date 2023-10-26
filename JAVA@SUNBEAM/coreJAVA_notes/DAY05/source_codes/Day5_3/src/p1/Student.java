@@ -1,0 +1,42 @@
+package p1;
+
+public class Student 
+{
+	private int rollno;
+	private int marks;
+	public Student() 
+	{
+		
+	}
+	public Student(int rollno, int marks)
+	{
+		
+		this.rollno = rollno;
+		this.marks = marks;
+	}
+	public int getRollno() {
+		return rollno;
+	}
+	public void setRollno(int rollno) {
+		this.rollno = rollno;
+	}
+	public int getMarks() {
+		return marks;
+	}
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+	
+	public void disp()
+	{
+		System.out.println("Rollno = "+this.rollno+" Marks = "+this.marks);
+	}
+	@Override
+	public String toString() {
+		return "Student [marks=" + this.marks + "]";
+	}
+	
+	
+	
+	
+}

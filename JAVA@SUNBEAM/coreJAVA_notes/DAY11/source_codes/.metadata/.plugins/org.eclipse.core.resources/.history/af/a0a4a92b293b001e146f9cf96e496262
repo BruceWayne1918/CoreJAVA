@@ -1,0 +1,11 @@
+
+public class Day11_10 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello everyone!");
+		Thread.sleep(4000);
+		System.out.println("Core java sunbeam pune");
+	}
+
+}

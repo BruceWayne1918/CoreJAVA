@@ -1,0 +1,25 @@
+class Machine
+{
+	public void start()
+	{
+		System.out.println("Machine Started");
+	}
+
+}
+class Laptop extends Machine
+{
+	public void start() // overridden method 
+	{
+		super.start();
+		System.out.println("Laptop Started");
+	}
+	
+}
+public class Day9_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

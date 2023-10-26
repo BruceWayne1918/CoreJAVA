@@ -1,0 +1,46 @@
+// Method Reference to a Constructor
+
+@FunctionalInterface
+interface MyInterface1
+{
+	Demo display(String s);
+}
+
+@FunctionalInterface
+interface MyInterface2
+{
+	Demo showData(int n1,int n2);
+}
+class Demo
+{
+	String str;
+	int num1,num2;
+	public Demo(String str)
+	{
+		System.out.println(str);
+	}
+	
+	public Demo(int num1,int num2)
+	{
+		System.out.println("Num1 = "+num1+" Num2 = "+num2);
+	}
+	
+}
+
+
+public class Day19_5 
+{
+
+	public static void main(String[] args)
+	{
+		MyInterface1 ref1 = Demo :: new;
+		ref1.display("Hello Akshita!!");
+		
+		
+		MyInterface2 ref2 = Demo :: new;
+		ref2.showData(50,20);
+		
+
+	}
+
+}

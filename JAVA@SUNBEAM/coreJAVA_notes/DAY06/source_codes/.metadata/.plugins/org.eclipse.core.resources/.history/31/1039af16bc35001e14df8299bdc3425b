@@ -1,0 +1,25 @@
+// enum ==> Enumeration
+// improve the readability of the code 
+
+// RED ==> 0
+// GREEN ==> 1
+// BLUE ==> 2
+
+enum Color
+{
+	RED,GREEN,BLUE;
+	// RED ==>0  GREEN ==> 1 BLUE==> 2
+	// Ordinal Values
+	// position at which the constants are declared 
+}
+
+
+public class Day6_12 {
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

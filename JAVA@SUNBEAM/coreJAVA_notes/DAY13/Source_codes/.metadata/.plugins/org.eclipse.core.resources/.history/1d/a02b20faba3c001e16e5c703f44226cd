@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Day13_3 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> a1 = new ArrayList<Integer>();
+		a1.add(10);
+		a1.add(20);
+		a1.add(10);
+		a1.add(null);
+		
+		LinkedList<Integer> l1 = new LinkedList<Integer>();
+		l1.add(110);
+		l1.add(120);
+		l1.add(130);
+		l1.add(120);
+		a1.add(null);
+		
+		Stack<Integer> stk = new Stack<Integer>();
+		stk.push(90);
+		stk.push(null);
+		stk.push(80);
+		stk.push(90);
+		
+		
+	}
+
+}

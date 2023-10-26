@@ -1,0 +1,47 @@
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+import java.util.stream.IntStream;
+
+
+// flatMap
+public class Day20_2 {
+
+	public static void main(String[] args) 
+	{
+		List<String> list = Arrays.asList("Java","Python","Trainer","Sunbeam");
+		list.stream()
+		.forEach(System.out::println)
+		list.stream().flatMap(str -> Stream.of(str.charAt(2))).forEach(System.out::println);
+	}
+}
+
+
+/*
+// average of all odd numbers 
+// take a range from user (start value and stop value)
+// create a stream
+// find the odd numbers
+// find average
+
+// IntStream.rangeClosed(start,stop) ==> filter ==> average() 
+
+public class Day20_2 {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter start value :");
+		int strt = sc.nextInt();
+
+		System.out.println("Enter stop value :");
+		int stop = sc.nextInt();
+		
+		double avg = IntStream.rangeClosed(strt, stop)
+				.filter(i-> i%2!=0).average().orElse(0);
+		
+		System.out.println("Average = "+avg);
+	}
+
+}
+*/

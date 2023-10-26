@@ -1,0 +1,92 @@
+import java.util.ArrayList;
+import java.util.Vector;
+
+// Example of Vector class
+
+
+
+public class Day13_4
+{
+
+	public static void main(String[] args) {
+		Vector<Integer> vec = new Vector<Integer>(5,2);
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add(10);
+		vec.add(20);
+		vec.add(30);
+		vec.add(40);
+		vec.add(50);
+		System.out.println("Vector Element = "+vec);
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add(60);
+		vec.add(70);
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add(80);
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		
+	}
+}
+
+
+
+
+/*
+public class Day13_4
+{
+
+	public static void main(String[] args) {
+		Vector<Integer> vec = new Vector<Integer>(5);
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add(10);
+		vec.add(20);
+		vec.add(30);
+		vec.add(40);
+		vec.add(50);
+		System.out.println("Vector Element = "+vec);
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add(60);
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add(70);
+		vec.add(80);
+		vec.add(90);
+		vec.add(100);
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add(110);
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		
+		
+	}
+}
+
+*/
+
+
+
+/*
+public class Day13_4
+{
+
+	public static void main(String[] args) {
+		//create an empty vector 
+		Vector vec = new Vector();
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add("red");
+		vec.add("green");
+		vec.add("yellow");
+		vec.add("pink");
+		vec.add("black");
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add("blue");
+		vec.add("white");
+		vec.add("purple");
+		vec.add("grey");
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add("orange");
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add("cyan");
+		System.out.println("Vector = "+vec+" Size = "+vec.size()+" Capacity = "+vec.capacity());
+
+	}
+
+}
+*/

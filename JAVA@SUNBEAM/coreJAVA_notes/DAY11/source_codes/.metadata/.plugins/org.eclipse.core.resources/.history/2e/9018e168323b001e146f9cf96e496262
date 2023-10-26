@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+// invalid age 
+// if age between 0 to 80  valid age
+// invalid age
+
+public class Day11_12 
+{
+	
+	public static void main(String[] args)
+	{
+		int age;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter age :");
+		age = sc.nextInt();
+		validateAge(age);
+
+	}
+
+}

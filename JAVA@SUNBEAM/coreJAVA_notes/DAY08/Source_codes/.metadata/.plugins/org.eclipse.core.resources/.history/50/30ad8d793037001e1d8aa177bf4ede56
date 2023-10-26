@@ -1,0 +1,14 @@
+// equals() , == , hashcode()
+
+class Employee
+{
+	
+}
+public class Day8_1 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

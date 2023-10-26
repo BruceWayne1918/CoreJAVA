@@ -1,0 +1,27 @@
+class Test
+{
+	T num;  // num is a generic type field 
+	
+	Test(T num)
+	{
+		this.num=num;
+	}
+	
+	T getData()
+	{
+		return this.num;
+	}
+}
+public class Day10_2 {
+
+	public static void main(String[] args)
+	{
+		Test tobj = new Test(10);
+		Test t2= new Test(5.5);
+		System.out.println(tobj.getData());
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+
+// ArrayList and its methods
+
+public class Day12_1 {
+
+	public static void main(String[] args)
+	{
+		//sample data int[]
+		int data[]= {10,23,22,44,12,9,8,15,12,17};
+		// data is a reference who can hold P type
+		// create an ArrayList(AL) from array
+		
+		ArrayList<Integer> l1 = new ArrayList<Integer>();
+		
+		//generated AL from array 
+		for(int i : data)
+			l1.add(i);
+		
+		System.out.println("L1 = "+l1);
+		
+		
+	}
+
+}

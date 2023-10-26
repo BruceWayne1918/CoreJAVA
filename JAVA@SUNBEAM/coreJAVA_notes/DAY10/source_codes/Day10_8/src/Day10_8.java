@@ -1,0 +1,52 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+// in this code we handled the exception 
+// by writting multiple catch blocks
+
+//can a try block can have multiple catch blocks ?? YES
+
+
+// ArithmeticException // InputMismatchException
+//ArrayIndexOutOfBoundsException
+
+
+public class Day10_8 {
+
+	public static void main(String[] args) 
+	{
+		int num1;
+		int num2;
+		int result;
+		Scanner sc = new Scanner(System.in);
+		
+		try
+		{
+		
+		System.out.println("Enter the first number : ");
+		num1 = sc.nextInt();
+		System.out.println("Enter the second number : ");
+		num2 = sc.nextInt();
+		
+		result = num1/num2;
+		System.out.println("Num1 = "+num1+" Num2 = "+num2+" Result = "+result);
+		
+		String str = args[0];
+		System.out.println("Str =" +str);
+		}
+		catch(ArithmeticException e)  //Handler 
+		{
+			System.out.println("Second number can't be zero!");
+		}
+		catch(InputMismatchException e) //Handler 
+		{
+			System.out.println("entered data should be numeric");
+		}
+		
+		catch(ArrayIndexOutOfBoundsException e) //Handler 
+		{
+			System.out.println("Please supply cmd line argument");
+		}
+		
+	}
+
+}

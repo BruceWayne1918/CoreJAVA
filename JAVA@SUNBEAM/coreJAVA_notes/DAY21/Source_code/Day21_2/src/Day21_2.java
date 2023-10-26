@@ -1,0 +1,45 @@
+//create a thread by extending Thread class
+
+class Count extends Thread
+{
+	Count()
+	{
+		System.out.println("Extended from Thread class");
+		System.out.println("Current Thread = "+this);
+		start(); //this.start()
+	}
+	
+	public void run()
+	{
+		try
+		{
+			for(int i=0;i<4;i++)
+			{
+				System.out.println("Printing the count "+i);
+				Thread.sleep(3000);
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+	
+}
+
+// four threads are created
+// main(), gc thread , c1, c2 
+
+public class Day21_2 {
+
+	public static void main(String[] args)
+	{
+		Count c1 = new Count();
+		//c1 is an object of Count class which extends Thread
+		// so we can say "c1" is a threaded object
+		
+		Count c2 = new Count();
+		
+	}
+
+}

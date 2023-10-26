@@ -1,0 +1,17 @@
+// reference inside the class
+class Date
+{
+	
+}
+class Employee
+{
+	
+}
+public class Day4_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

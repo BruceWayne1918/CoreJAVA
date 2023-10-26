@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+@FunctionalInterface
+interface Person
+{
+	public String getName();
+}
+
+public class Day18_8 {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter your name : ");
+		String str = sc.next();
+		// pref is reference of FI
+		// it can hold lambda 
+		Person pref = () -> {return "Hello!"+str;};
+		System.out.println(pref.getName());
+		
+	}
+
+}
+
+
+
+
+/*
+@FunctionalInterface
+interface Person
+{
+	public String getName();
+}
+
+public class Day18_8 {
+
+	public static void main(String[] args) 
+	{
+		// pref is reference of FI
+		// it can hold lambda 
+		Person pref = () -> {return "Hello!Akshita";};
+		System.out.println(pref.getName());
+		
+	}
+
+}
+
+*/

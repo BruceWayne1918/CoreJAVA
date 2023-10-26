@@ -1,0 +1,24 @@
+// user defined exception class
+// custom exception
+// if user enters number >100 throw one exception (Number is greater)
+
+
+
+public class Day11_11 {
+
+	public static void main(String[] args) 
+	{
+		try
+		{
+			int num;
+			System.out.println("Enter numeric value :");
+			Scanner sc = new Scanner(System.in);
+			
+		}
+		catch()
+		{
+			
+		}
+	}
+
+}

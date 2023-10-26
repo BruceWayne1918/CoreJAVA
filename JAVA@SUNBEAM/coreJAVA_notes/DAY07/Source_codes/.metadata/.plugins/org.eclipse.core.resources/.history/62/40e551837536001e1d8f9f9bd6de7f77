@@ -1,0 +1,33 @@
+
+//String and its methods
+
+public class Day7_4 {
+
+	public static void main(String[] args)
+	{
+		String str = "Sunbeam";
+		String str1 = "Sunbeam";
+		String str2 = "sunbeam";
+		char ch = str.charAt(1);
+		System.out.println("Character at 1st location = "+ch);
+		System.out.println("Compare to = "+str.compareTo(str1));
+		System.out.println("Compare to = "+str1.compareTo(str2));
+	}
+}
+
+
+/*
+public class Day7_4 {
+
+	public static void main(String[] args)
+	{
+		String s1 = new String("Hello"); // NL 
+		System.out.println("S1 = "+s1);
+		System.out.println("S1 = "+(s1.concat("Everyone")));
+		System.out.println("S1 = "+s1 ); //immutable
+		s1 = s1.concat("Everyone");
+		System.out.println("S1 = "+s1 ); 
+	}
+
+}
+*/

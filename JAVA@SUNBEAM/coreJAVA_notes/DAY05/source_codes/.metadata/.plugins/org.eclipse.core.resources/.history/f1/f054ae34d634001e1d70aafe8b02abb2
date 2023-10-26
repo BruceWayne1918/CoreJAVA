@@ -1,0 +1,11 @@
+package p1; // Employee class belongs to package p1 
+
+public class Employee 
+{
+	private String name;
+	private String desg;
+	private int id;
+	private int age;
+	private float salary;
+	
+}

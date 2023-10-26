@@ -1,0 +1,54 @@
+
+class Demo
+{
+	
+}
+
+public class Day11_10 {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+		
+	}
+}
+
+
+
+
+/*
+// checked exception is handled through throws keyword
+
+public class Day11_10 {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+		System.out.println("Hello everyone!");
+			Thread.sleep(4000);
+		System.out.println("Core java sunbeam pune");
+	}
+
+}
+*/
+
+
+
+/*
+// checked exception is handled through try-catch block
+public class Day11_10 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello everyone!");
+		try
+		{
+			Thread.sleep(4000);
+		}
+		catch(InterruptedException e)
+		{
+			System.out.println("Exception is handled");
+		}
+		System.out.println("Core java sunbeam pune");
+	}
+
+}
+*/

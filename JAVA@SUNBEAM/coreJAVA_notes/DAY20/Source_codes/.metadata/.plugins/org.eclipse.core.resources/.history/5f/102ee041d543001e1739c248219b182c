@@ -1,0 +1,14 @@
+package p1;
+import java.util.Map;
+import java.util.HashMap;
+
+public class Day20_3
+{
+
+	public static void main(String[] args) 
+	{
+		Map<Integer,Student> map = new HashMap<>();
+
+	}
+
+}

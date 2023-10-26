@@ -1,0 +1,11 @@
+import java.util.Arrays;
+
+public class Day18_12 {
+
+	public static void main(String[] args) 
+	{
+		List<Integer> l1 = Arrays.asList({10,20,30,40});
+
+	}
+
+}

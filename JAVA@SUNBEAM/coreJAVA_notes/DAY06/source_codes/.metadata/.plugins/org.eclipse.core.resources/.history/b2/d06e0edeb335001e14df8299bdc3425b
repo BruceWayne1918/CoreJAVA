@@ -1,0 +1,122 @@
+// Array of References and array of objects
+
+
+class Employee
+{
+	private String name;
+	private int id;
+	private float salary;
+	
+	public Employee()
+	{
+		
+	}
+
+	public Employee(String name, int id, float salary) 
+	{
+		this.name = name;
+		this.id = id;
+		this.salary = salary;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public float getSalary() {
+		return salary;
+	}
+
+	public void setSalary(float salary) {
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", id=" + id + ", salary=" + salary + "]";
+	}
+	
+	void disp()
+	{
+		System.out.println("Name = "+this.name);
+	}
+		
+}
+
+public class Day6_9 {
+
+	public static void main(String[] args) 
+	{
+		Employee e[]=new Employee[4];
+		//allocate memory to each reference 
+		for(int i=0;i<4;i++)
+			e[i] = new Employee();
+		
+		e[0] = new Employee("e1",1,99999);
+		e[1] = new Employee("e2",2,88888);
+		e[2] = new Employee("e3",3,77777);
+		e[3] = new Employee("e4",4,66666);
+	}
+}
+
+
+
+/*
+public class Day6_9 {
+
+	public static void main(String[] args) 
+	{
+		Employee e[]=new Employee[4];
+		System.out.println("e = "+e); 
+		System.out.println("e[0] = "+e[0]);
+		System.out.println("e[1] = "+e[1]);
+		System.out.println("e[2] = "+e[2]);
+		System.out.println("e[3] = "+e[3]);
+		//e[0].disp(); // NPE because e[0] = null reference 
+		// to resolve NPE  we must allocate memory to reference 
+		e[0] = new Employee("emp1",123,99999);
+		e[1] = new Employee("emp2",456,88888);
+		e[2] = new Employee("emp3",789,77777);
+		e[3] = new Employee("emp4",432,66666);
+		
+		e[0].disp();
+		System.out.println(e[0]);
+		
+		
+	}
+}
+*/
+
+
+
+
+
+
+
+/*
+
+public class Day6_9 {
+
+	public static void main(String[] args) 
+	{
+		Employee e = new Employee();
+		System.out.println(e);
+		e.disp();
+
+	}
+
+}
+
+*/

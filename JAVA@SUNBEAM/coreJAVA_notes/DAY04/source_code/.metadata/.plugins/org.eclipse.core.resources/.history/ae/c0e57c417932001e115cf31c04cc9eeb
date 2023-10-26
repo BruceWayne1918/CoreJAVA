@@ -1,0 +1,25 @@
+
+class Employee
+{
+	private String name;
+	private int empid;
+	private int deptid;
+	private float salary;
+	private String desg;
+	
+	void accept_record()
+	{
+		Scanner sc = new Scanner(System.in);
+		
+	}
+	
+}
+public class Day4_1 {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

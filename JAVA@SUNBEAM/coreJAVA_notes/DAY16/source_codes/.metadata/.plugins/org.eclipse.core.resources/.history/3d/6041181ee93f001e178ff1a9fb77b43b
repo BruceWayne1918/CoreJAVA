@@ -1,0 +1,63 @@
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.util.Scanner;
+
+// read and write multiple bytes from file (text file)
+// BufferedReader
+// BufferedWriter
+
+public class Day16_8 {
+
+	static Scanner sc = new Scanner(System.in);
+	static final String pathName="Test.dat";
+	
+	
+	public static void writeRecord() throws FileNotFoundException, IOException
+	{
+		try(BufferedWriter bw = new BufferedWriter(new FileWriter(new File(pathName)));)
+		{
+			for(char ch='A';ch<='Z';ch++)
+				bw.write(ch);
+		}
+	}
+	
+	public static void readRecord() throws IOException
+	{
+		try(BufferedInputStream bis = new BufferedInputStream(new FileInputStream(new File(pathName)));)
+		{
+			int data;
+			while((data = bis.read())!=-1)
+			{
+				System.out.print((char)data+"\t");
+			}
+		}
+	}
+	
+	static int menuList()
+	{
+		int choice;
+		System.out.println("Please enter choice 0.Exit 1.Write 2.Read");
+		choice = sc.nextInt();
+		return choice;
+	}
+	
+	public static void main(String[] args) throws FileNotFoundException, IOException 
+	{
+		int ch;
+		while((ch = menuList())!=0)
+		{
+			switch(ch)
+			{
+			case 1:
+				writeRecord();
+			break;
+			case 2:
+				readRecord();
+			break;
+			}
+		}
+	}
+
+}

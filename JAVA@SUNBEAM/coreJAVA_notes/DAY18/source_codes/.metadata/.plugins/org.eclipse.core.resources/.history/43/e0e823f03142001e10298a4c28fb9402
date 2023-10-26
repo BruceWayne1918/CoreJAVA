@@ -1,0 +1,38 @@
+interface TestInterface
+{
+	// abstract static method declaration
+	public void square(int a); 
+	
+	
+	//add one method along with definition inside the interface
+	
+	void disp()
+	{
+		System.out.println("Inside Display method");
+	}
+	
+	
+}
+
+
+
+public class Day18_1 implements TestInterface 
+{
+	//define square() compulsory
+	@Override
+	public void square(int a) 
+	{
+		System.out.println("Area = "+(a*a));
+		
+	}
+
+	
+	public static void main(String[] args) 
+	{
+		Day18_1 dobj = new Day18_1();
+		dobj.square(5);
+
+	}
+	
+	
+}

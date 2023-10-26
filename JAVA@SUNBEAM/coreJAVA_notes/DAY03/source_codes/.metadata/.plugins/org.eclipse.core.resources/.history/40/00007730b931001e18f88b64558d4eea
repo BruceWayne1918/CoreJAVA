@@ -1,0 +1,17 @@
+
+public class Day3_4 
+{
+
+	public static void main(String[] args) 
+	{
+		int num1=35;
+		float fval = 7.84f;
+		double dval = 9.8;
+		String s1 = Integer.toString(num1); // P to NP
+		String s2 = Float.toString(fval); // P to NP
+		String s3 = Double.toString(dval); // P to NP 
+		
+		
+	}
+
+}

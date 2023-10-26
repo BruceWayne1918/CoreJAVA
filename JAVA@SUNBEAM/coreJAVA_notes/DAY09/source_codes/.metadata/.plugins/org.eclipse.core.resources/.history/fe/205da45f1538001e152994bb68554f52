@@ -1,0 +1,52 @@
+class Machine
+{
+	public void start()
+	{
+		System.out.println("Machine Started");
+	}
+
+}
+class Laptop extends Machine
+{
+	public void start() // overridden method 
+	{
+		super.start();
+		System.out.println("Laptop Started");
+	}
+	
+	public void stop() // non overridden 
+	{
+		System.out.println("Laptop Stopped");
+	}
+	
+}
+public class Day9_3 {
+
+	public static void main(String[] args) 
+	{
+		Machine mobj = new Machine();
+		//mobj ==> object ==> super class
+		mobj.start(); //start() will be called from Machine class
+		// mobj.stop(); // javac error 
+		System.out.println("------------------------");
+		Laptop lobj = new Laptop();
+		lobj.start();
+		lobj.stop();
+		System.out.println("------------------------");
+		
+		Machine m2 = lobj; // UPCASTING 
+		// m2 ===> ref ==> super type 
+		// lobj ==> object ==> sub type
+		// Laptop is-a Machine 
+		
+		m2.start(); // start() will be called from Laptop class 
+		// C++ LATE BINDING 
+		// RUN TIME POLYMORPHISIM // DYNAMIC METHOD DISPATCH
+		
+		//m2.stop(); // Not allowed 
+		//stop() is non overridden method 
+		
+		
+	}
+
+}

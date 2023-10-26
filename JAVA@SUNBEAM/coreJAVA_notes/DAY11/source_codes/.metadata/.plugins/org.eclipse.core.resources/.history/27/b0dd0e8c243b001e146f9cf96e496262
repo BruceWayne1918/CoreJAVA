@@ -1,0 +1,16 @@
+// checked VS Unchecked Exception
+
+// If we dont supply command line argument
+// ArrayIndexOutOfBoundsException  ==> super class is RuntimeException
+// so it comes ===> Unchecked category
+// have we handled it at the time of application development?? 
+public class Day11_5 {
+
+	public static void main(String[] args)
+	{
+		String str = args[0];
+		System.out.println(str);
+
+	}
+
+}

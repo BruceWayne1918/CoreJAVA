@@ -1,0 +1,15 @@
+
+@FunctionalInterface
+interface Person
+{
+	public String getName();
+}
+
+public class Day18_8 {
+
+	public static void main(String[] args) 
+	{
+		Person pref = 
+	}
+
+}

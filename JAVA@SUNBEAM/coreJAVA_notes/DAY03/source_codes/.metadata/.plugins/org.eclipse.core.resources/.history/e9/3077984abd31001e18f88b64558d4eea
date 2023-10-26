@@ -1,0 +1,14 @@
+// Taking input from user
+// by using Scanner class
+
+public class Day3_5 {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc ;
+		int num = sc.nextInt();
+		System.out.println("Num = "+num);
+
+	}
+
+}

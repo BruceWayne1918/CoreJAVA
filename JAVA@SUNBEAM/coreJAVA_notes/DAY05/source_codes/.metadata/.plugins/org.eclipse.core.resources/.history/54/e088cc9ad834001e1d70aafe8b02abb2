@@ -1,0 +1,12 @@
+package p2;
+
+public class Day5_2 {
+
+	public static void main(String[] args) 
+	{
+		Employee e1 = new Employee();
+		
+
+	}
+
+}

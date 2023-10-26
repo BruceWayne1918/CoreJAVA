@@ -1,0 +1,13 @@
+interface Square
+{
+	public int getArea(int side); 
+}
+
+public class Day18_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

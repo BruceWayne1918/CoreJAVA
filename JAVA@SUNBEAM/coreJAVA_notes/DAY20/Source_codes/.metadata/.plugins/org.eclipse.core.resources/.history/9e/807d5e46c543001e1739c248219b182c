@@ -1,0 +1,12 @@
+
+public class Day20_1 {
+
+	public static void main(String[] args)
+	{
+		int[] data = {23,1,20,12,45,122,20,10,67,78};
+		System.out.println("Printing Array Contents");
+		
+
+	}
+
+}

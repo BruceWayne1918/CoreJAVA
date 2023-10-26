@@ -1,0 +1,23 @@
+// Method reference to an instance method of an object
+
+
+@FunctionalInterface
+interface MyInterface
+{
+	void display();
+}
+
+public class Day18_9 
+{
+
+	 public void m1()
+	 {
+		 
+	 }
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

@@ -1,0 +1,61 @@
+// Variable Argument Function 
+
+
+public class Day6_11 
+{
+	static int sum(int... arguments)  // variable number of arguments
+	{
+		int result = 0;
+		for(int element : arguments)
+			result = result + element;
+		return result;
+		
+	}
+	public static void main(String... args) 
+	{
+		int result = sum(10,20);
+		System.out.println("Result = "+result);
+		
+		result = sum(9,8,7);
+		System.out.println("Result = "+result);	
+		
+		result = sum(1,2,3,4);
+		System.out.println("Result = "+result);
+		
+		result = sum();
+		System.out.println("Result = "+result);
+		
+	}		
+}
+
+/*
+//example of function overloading
+// same function name with different number of parameters 
+
+public class Day6_11 {
+
+	static int sum(int a,int b)
+	{
+		return a+b;
+	}
+	
+	static int sum(int p,int q,int r)
+	{
+		return p+q+r;
+	}
+	
+	public static void main(String[] args) 
+	{
+		int result = sum(10,20);
+		System.out.println("Result = "+result);
+		
+		result = sum(9,8,7);
+		System.out.println("Result = "+result);
+		
+		
+	}
+
+}
+
+
+*/

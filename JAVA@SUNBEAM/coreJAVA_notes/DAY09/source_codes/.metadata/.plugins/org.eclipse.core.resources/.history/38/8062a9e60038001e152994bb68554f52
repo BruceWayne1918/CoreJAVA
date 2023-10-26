@@ -1,0 +1,13 @@
+package p1;
+
+public class NetworkPrinter implements Printer
+{
+
+	@Override
+	public void print(String msg) 
+	{
+		System.out.println("Inside Print method of network printer"+msg);
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+class Demo<T>
+{
+	static T obj;
+	Demo(T obj)
+	{
+		this.obj=obj;
+	}
+}
+public class Day10_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

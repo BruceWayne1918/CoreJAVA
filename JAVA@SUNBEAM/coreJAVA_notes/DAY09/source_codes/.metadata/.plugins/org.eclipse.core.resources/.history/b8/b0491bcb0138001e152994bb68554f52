@@ -1,0 +1,14 @@
+package p1;
+
+public class ConsolePrinter implements Printer
+{
+
+	@Override
+	public void print(String msg) 
+	{
+		// TODO Auto-generated method stub
+		
+	}	
+	
+
+}

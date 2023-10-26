@@ -1,0 +1,19 @@
+import java.util.Vector;
+
+public class Day13_8 {
+
+	public static void main(String[] args) {
+		Vector<Integer> vec = new Vector<Integer>();
+		vec.addElement(25);
+		vec.addElement(35);
+		vec.addElement(45);
+		vec.addElement(55);
+		vec.addElement(65);
+		vec.addElement(75);
+		System.out.println("Vector elements = "+vec);
+		
+		
+
+	}
+
+}

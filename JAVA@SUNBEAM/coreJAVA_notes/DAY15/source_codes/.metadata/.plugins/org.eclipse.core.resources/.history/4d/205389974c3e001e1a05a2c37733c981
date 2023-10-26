@@ -1,0 +1,12 @@
+import java.io.File;
+
+public class Day15_1 {
+
+	public static void main(String[] args) 
+	{
+		String pathname = "Demo.txt";
+		File fobj = new File(pathname);
+		boolean status = fobj.createNewFile();
+	}
+
+}

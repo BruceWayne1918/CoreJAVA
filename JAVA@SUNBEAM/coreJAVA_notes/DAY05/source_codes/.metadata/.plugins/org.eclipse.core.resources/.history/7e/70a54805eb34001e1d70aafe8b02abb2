@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+class Demo
+{
+	static int num1;  // static field
+	static int num2; // static field
+	static Scanner sc; // static reference 
+	//static initializer block
+	static
+	{
+		num1=5;
+		num2=5;
+		sc=new Scanner(System.in);
+	}
+	static void accept() //static method
+	{
+		System.out.println("Enter First number :");
+		num1= sc.nextInt();
+		System.out.println("Enter Second number :");
+		num2=sc.nextInt();
+	}
+	
+	static void disp() //  static method 
+	{
+		System.out.println("Num1 = "+num1+" Num2 = "+num2);
+	}
+}
+
+public class Day5_7 
+{
+
+	public static void main(String[] args) 
+	{
+		Demo.disp();
+		Demo.accept();
+		Demo.disp();
+
+	}
+
+}

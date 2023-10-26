@@ -1,0 +1,37 @@
+// Method Reference to a Constructor
+
+@FunctionalInterface
+interface MyInterface
+{
+	Demo display(String s);
+}
+
+class Demo
+{
+	String str;
+	int num1,num2;
+	public Demo(String str)
+	{
+		System.out.println(str);
+	}
+	
+	public Demo(int num1,int num2)
+	{
+		System.out.println("Num1 = "+num1+" Num2 = "+num2);
+	}
+	
+}
+
+
+public class Day19_5 
+{
+
+	public static void main(String[] args)
+	{
+		MyInterface ref = Demo :: new;
+		ref.display("Hello Akshita!!");
+		
+
+	}
+
+}

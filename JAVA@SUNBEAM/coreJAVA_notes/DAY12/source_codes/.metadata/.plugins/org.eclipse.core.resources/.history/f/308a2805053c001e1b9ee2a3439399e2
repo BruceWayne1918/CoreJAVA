@@ -1,0 +1,34 @@
+import java.util.LinkedList;
+
+class product
+{
+	int pid;
+	float price;
+	
+	public product() 
+	{
+		super();
+	}
+
+	public product(int pid, float price) {
+		super();
+		this.pid = pid;
+		this.price = price;
+	}
+
+	@Override
+	public String toString() 
+	{
+		return "product [pid=" + pid + ", price=" + price + "]";
+	}
+	
+}
+public class Day12_14 {
+
+	public static void main(String[] args) 
+	{
+		LinkedList<Product> l1 = new LinkedList<Product>();
+		
+	}
+
+}

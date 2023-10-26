@@ -1,0 +1,10 @@
+import java.util.Deque;
+
+public class Day13_10 {
+
+	public static void main(String[] args) {
+		Deque<Integer> q = new ArrayDeque<Integer>();
+
+	}
+
+}

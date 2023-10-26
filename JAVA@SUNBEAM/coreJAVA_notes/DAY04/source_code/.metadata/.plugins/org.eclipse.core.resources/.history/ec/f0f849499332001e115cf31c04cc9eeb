@@ -1,0 +1,28 @@
+class Employee
+{
+	private String name;
+	private int empid;
+	private float salary;
+	private int deptid;
+	
+	public Employee() 
+	{
+		this.name="DEFAULT";
+		this.empid=1;
+		this.salary=50000;
+		this.deptid=1;
+		
+	}
+	
+	
+}
+
+
+public class Day4_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

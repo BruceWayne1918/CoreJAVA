@@ -1,0 +1,34 @@
+//generic always works with non primitive type 
+
+class Test<T>
+{
+	T num;  // num is a generic type field 
+	
+	Test(T num) // constructor is taking one parameter of type T 
+	{
+		this.num=num;
+	}
+	
+	T getData() // method is returning one parameter of type T
+	{
+		return this.num;
+	}
+}
+public class Day10_2 {
+
+	public static void main(String[] args)
+	{
+		//Test tobj = new Test(10); // raw type 
+		// if we do not specify the type parameter
+		// at the time of using the class
+		
+		Test<Integer> tobj = new Test<Integer>(10);
+		
+		Test t2= new Test(5.5);
+		System.out.println(tobj.getData());
+		
+		
+		
+	}
+
+}

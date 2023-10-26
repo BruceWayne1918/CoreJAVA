@@ -1,0 +1,18 @@
+class Demo
+{
+	
+}
+public class Day10_3 {
+
+	public static void main(String[] args) 
+	{
+		Demo d1<Integer,Integer> = new Demo<Integer,Integer>(5,4);
+		Demo d2<Float,Double> = new Demo<Float,Double>(4.3f,2.5);
+		Demo d3<Integer,Double> = new Demo<Integer,Double>(7,5.5);
+		Demo d4<Integer,String> = new Demo<Integer,String>(123,"Sunbeam");
+		Demo d5<String,String> = new Demo<String,String>("Akshita","CoreJava");
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+import java.util.stream.Stream;
+
+public class Day19_7 {
+
+	public static void main(String[] args) 
+	{
+		Integer arr[]= {1,2,3,4,5,6,7,8,9,10};
+		
+		Stream<Integer> s1 = Stream.of(arr); // source
+		s1.forEach(i -> System.out.print(i+"\t")); // terminal
+		
+		s1.forEach(val -> System.out.print(val+"\t"));
+		
+		
+
+	}
+
+}

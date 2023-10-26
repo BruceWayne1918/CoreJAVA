@@ -1,0 +1,14 @@
+// Set Hierarchy
+
+// example of HashSet , TreeSet  and LinkedHashSet 
+
+public class Day14_1 {
+
+	public static void main(String[] args) 
+	{
+		HashSet<Integer> hs = new HashSet<Integer>();
+		
+
+	}
+
+}

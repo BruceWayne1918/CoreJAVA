@@ -1,0 +1,63 @@
+import java.util.function.BiFunction;
+
+// Method reference to a static method of a class
+
+@FunctionalInterface
+interface Demo
+{
+	public int calculate(int a,int b);
+}
+
+
+class TestMath
+{
+	public static int addition(int a,int b)
+	{
+		return a + b;
+	}
+	
+	
+	public static int subtraction(int a,int b)
+	{
+		return a - b;
+	}
+	
+	public static int division(int a,int b)
+	{
+		return a / b;
+	}
+	
+	public static int multiply(int a,int b)
+	{
+		return a * b;
+	}
+}
+
+
+public class Day19_2 {
+
+	public static void main(String[] args) 
+	{
+
+	}
+}
+
+
+
+
+
+/*
+public class Day19_2 {
+
+	public static void main(String[] args) 
+	{
+		BiFunction<Integer,Integer,Integer> ref = Multiplication::multiply;
+		int result = ref.apply(9,4);
+		System.out.println("Result = "+result);
+	}
+
+}
+
+*/
+
+

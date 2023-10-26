@@ -1,0 +1,10 @@
+
+public class Day8_1 {
+
+	public static void main(String[] args) {
+		
+		StringBuffer  sb1="Hello";
+		
+	}
+
+}

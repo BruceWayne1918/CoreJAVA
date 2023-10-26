@@ -1,0 +1,10 @@
+
+public class Day3_2 {
+
+	public static void main(String[] args) {
+		int num = 25;
+		float fval = num; 
+
+	}
+
+}

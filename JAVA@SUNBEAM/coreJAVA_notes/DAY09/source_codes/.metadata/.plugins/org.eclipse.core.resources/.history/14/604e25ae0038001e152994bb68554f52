@@ -1,0 +1,12 @@
+package p1;
+
+public class NetworkPrinter implements Printer
+{
+
+	@Override
+	public void print(String msg) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

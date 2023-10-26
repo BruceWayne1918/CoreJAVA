@@ -1,0 +1,17 @@
+
+@FunctionalInterface
+interface Person
+{
+	public String getName();
+}
+
+public class Day18_8 {
+
+	public static void main(String[] args) 
+	{
+		// pref is reference of FI
+		// it can hold lambda 
+		Person pref = () -> {return "Hello Akshita";};
+	}
+
+}

@@ -1,0 +1,33 @@
+package p1;
+
+// we can not create object of abstract class (javac error)
+public class Day8_9 
+{
+
+	public static void main(String[] args) 
+	{
+		BoundedShape bs = new Circle(30,20,9); 
+	}
+}
+
+
+
+
+/*
+public class Day8_9 
+{
+
+	public static void main(String[] args) 
+	{
+		Circle cobj = new Circle(50,40,8);
+		System.out.println(cobj);
+		System.out.println("Area of Circle = "+cobj.area());
+		Rectangle rec = new Rectangle(20,10,5,4);
+		System.out.println(rec);
+		System.out.println("Area of Rectangle = "+rec.area());
+		
+
+	}
+
+}
+*/

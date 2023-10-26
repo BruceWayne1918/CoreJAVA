@@ -1,0 +1,14 @@
+
+public class Day6_4 {
+
+	
+	
+	public static void main(String[] args) 
+	{
+		int a[]=null;
+		accept(a);
+		disp(a);
+		
+	}
+
+}

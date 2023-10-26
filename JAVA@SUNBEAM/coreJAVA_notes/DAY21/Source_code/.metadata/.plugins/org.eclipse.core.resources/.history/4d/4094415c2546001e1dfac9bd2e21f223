@@ -1,0 +1,28 @@
+//create a thread by extending Thread class
+
+class Count extends Thread
+{
+	Count()
+	{
+		System.out.println("Extended from Thread class");
+		System.out.println("Current Thread = "+this);
+		start();
+	}
+	
+	public void run()
+	{
+		
+	}
+	
+	
+}
+
+
+public class Day21_2 {
+
+	public static void main(String[] args)
+	{
+		Count cnt = new Count();
+	}
+
+}

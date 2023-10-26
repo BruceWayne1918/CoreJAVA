@@ -1,0 +1,22 @@
+interface TestInterface
+{
+	// abstract method declaration
+	public void square(int a); 
+	
+}
+
+
+
+public class Day18_1 implements TestInterface 
+{
+	
+	//define square() compulsory
+	
+	
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

@@ -1,0 +1,16 @@
+// equals() , == , hashcode()
+
+class Employee
+{
+	private String name;
+	private int id;
+	private int age;
+}
+public class Day8_1 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class Day5_8 
+{
+	int val;
+	Scanner sc;
+	void accept()
+	{
+		System.out.println("Enter one value : ");
+		val = sc.nextInt();
+	}
+	void disp()
+	{
+		System.out.println("Value = "+val);
+	}
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

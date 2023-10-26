@@ -1,0 +1,13 @@
+package p1;
+
+public class Day8_9 
+{
+
+	public static void main(String[] args) 
+	{
+		Rectangle rec = new Rectangle(20,10,5,4);
+		
+
+	}
+
+}

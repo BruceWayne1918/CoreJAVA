@@ -1,0 +1,23 @@
+import java.util.Iterator;
+import java.util.Vector;
+// printing the vector elements in different ways
+
+public class Day13_7 {
+
+	public static void main(String[] args) {
+		Vector<Integer> vec = new Vector<Integer>();
+		vec.addElement(25);
+		vec.addElement(35);
+		vec.addElement(45);
+		vec.addElement(55);
+		System.out.println("Vector elements = "+vec);
+		
+		//Iterator<Integer> itr = vec.iterator();
+		//while(itr.hasNext())
+			//System.out.print(itr.next()+"\t");
+		
+		
+
+	}
+
+}

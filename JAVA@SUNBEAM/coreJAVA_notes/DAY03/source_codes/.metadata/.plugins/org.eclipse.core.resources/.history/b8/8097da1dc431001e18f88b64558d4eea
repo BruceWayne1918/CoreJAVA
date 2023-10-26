@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class Employee
+{
+	int id;
+	int salary;
+
+	void acceptRecord()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter ID ");
+		id = sc.nextInt();
+		System.out.println("Enter Salary ");
+		salary = sc.nextInt();
+	}
+	
+	void dispRecord()
+	{
+		System.out.println("Id = "+id+" Salary = "+salary);
+		
+	}
+}
+
+public class Day3_6 {
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

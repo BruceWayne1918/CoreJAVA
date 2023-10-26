@@ -1,0 +1,51 @@
+
+//Boxing
+public class Day3_4 
+{
+
+	public static void main(String[] args) 
+	{
+		int num1=35;
+		float fval = 7.84f;
+		double dval = 9.8;
+		Integer i1 = Integer.valueOf(num1);
+		// num1 ==> P type
+		// i1 ==> NP type
+		// P to NP // BOXING 
+		// int to Integer ===> valueOf() 
+		
+		Float f1 = Float.valueOf(fval);
+		Double d1 = Double.valueOf(dval);
+		System.out.println("Num1 = "+num1+ "I1 = "+i1);
+		System.out.println("FVAL = "+fval+ "F1 = "+F1);
+		System.out.println("DVAL = "+dval+ "D1 = "+D1);
+	}
+}
+
+
+
+
+
+/*
+ // BOXING 
+  
+public class Day3_4 
+{
+
+	public static void main(String[] args) 
+	{
+		int num1=35;
+		float fval = 7.84f;
+		double dval = 9.8;
+		String s1 = Integer.toString(num1); // P to NP // Boxing 
+		String s2 = Float.toString(fval); // P to NP // Boxing
+		String s3 = Double.toString(dval); // P to NP  // Boxing 
+		
+		
+		
+		
+	}
+
+}
+
+*/

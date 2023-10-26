@@ -1,0 +1,50 @@
+class Product
+{
+	int pid;
+	Product()
+	{
+		super();
+	}
+	Product(int id)
+	{
+		this.pid=id;
+	}
+	void disp()
+	{
+		System.out.println("PID = "+this.pid);
+	}
+	
+}
+
+
+class Laptop extends Product
+{
+	String name;
+	Laptop()
+	{
+		super();
+	}
+	Laptop(String name)
+	{
+		this.name=name;
+	}
+	void dispDetails() // non overridden method 
+	{
+		//disp();
+		// super.disp();
+		this.disp();
+		System.out.println("Name = "+this.name);
+	}
+}
+
+
+
+
+public class Day8_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

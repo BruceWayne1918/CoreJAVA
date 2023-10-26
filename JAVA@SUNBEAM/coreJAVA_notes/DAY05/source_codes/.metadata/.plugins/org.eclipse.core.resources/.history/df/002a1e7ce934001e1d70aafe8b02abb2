@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class Demo
+{
+	int num1;
+	int num2;
+	void accept()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter First number :");
+		num1= sc.nextInt();
+		System.out.println("Enter Second number :");
+		num2=sc.nextInt();
+	}
+	
+	void disp()
+	{
+		System.out.println("Num1 = "+this.num1+" Num2 = "+this.num2);
+	}
+}
+
+public class Day5_6 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

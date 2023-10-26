@@ -1,0 +1,99 @@
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
+
+//TreeMap
+
+//UnOrdered, Sorted, no duplicates are allowed, 
+//if we try to add same key with different value , value of that key gets overwritten
+//value can be null for more than one key
+//Key should be unique
+//one null key and one null value record is allowed
+//one null key can be allocated with one value also 
+
+public class Day14_5 {
+
+	public static void main(String[] args) {
+		TreeMap<Integer,String> tm = new TreeMap<Integer,String>();
+		tm.put(60, "p1");
+		tm.put(20, "p2");
+		tm.put(30, "p3");
+		tm.put(40,"p4");
+		//tm.put(40, "p4"); // duplicate not allowed 
+		//tm.put(40, "p5");
+		//tm.put(50, null);
+		//tm.put(null, null);
+		//tm.put(null, "n1");
+		
+		System.out.println("Linked Hash map contents = "+tm);
+		
+	}
+
+}
+
+
+
+
+/*
+//LinkedHashMap
+
+//Ordered, Unsorted, no duplicates are allowed, 
+//if we try to add same key with different value , value of that key gets overwritten
+//value can be null for more than one key
+//Key should be unique
+//one null key and one null value record is allowed
+//one null key can be allocated with one value also 
+
+public class Day14_5 {
+
+	public static void main(String[] args) {
+		LinkedHashMap<Integer,String> lhm = new LinkedHashMap<Integer,String>();
+		lhm.put(60, "p1");
+		lhm.put(20, "p2");
+		lhm.put(30, "p3");
+		lhm.put(40,"p4");
+		lhm.put(40, "p4"); // duplicate not allowed 
+		lhm.put(40, "p5");
+		lhm.put(50, null);
+		lhm.put(null, null);
+		lhm.put(null, "n1");
+		
+		System.out.println("Linked Hash map contents = "+lhm);
+		
+	}
+
+}
+
+*/
+
+
+
+/*
+//HashMap
+// Unordered, Unsorted, no duplicates are allowed, 
+// if we try to add same key with different value , value of that key gets overwritten
+// value can be null for more than one key
+// Key should be unique
+// one null key and one null value record is allowed
+// one null key can be allocated with one value also 
+
+public class Day14_5 {
+
+	public static void main(String[] args) {
+		HashMap<Integer,String> hm = new HashMap<Integer,String>();
+		hm.put(10, "p1");
+		hm.put(20, "p2");
+		hm.put(30, "p3");
+		hm.put(40,"p4");
+		hm.put(40, "p4"); // duplicate not allowed 
+		hm.put(40, null);
+		hm.put(50, null);
+		hm.put(null, null);
+		hm.put(null, "n1");
+		
+		System.out.println("Hash map contents = "+hm);
+		
+	}
+
+}
+*/

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Day21_3&apos; to &apos;Day21_4&apos;&#x0D;&#x0A;- Original project: &apos;Day21_4&apos;&#x0D;&#x0A;- Original element: &apos;Day21_3&apos;&#x0D;&#x0A;- Renamed element: &apos;Day21_4&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Day21_3&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Day21_3.java[Day21_3" matchStrategy="1" name="Day21_4" qualified="false" references="true" similarDeclarations="false" stamp="1693285009912" textual="false" version="1.0"/>
+</session>

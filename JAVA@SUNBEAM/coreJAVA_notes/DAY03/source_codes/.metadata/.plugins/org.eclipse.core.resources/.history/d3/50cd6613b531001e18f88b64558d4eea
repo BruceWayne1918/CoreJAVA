@@ -1,0 +1,27 @@
+
+public class Day3_2 {
+
+	public static void main(String[] args) {
+		
+	}
+}
+
+
+/*
+public class Day3_2 {
+
+	public static void main(String[] args) {
+		int num = 25; // num ==> p type ==> int 
+		float fval = num;  // fval ==> p type ==> float
+		// int to float conversion
+		// type casting / conversion
+		// p to p conversion 
+		System.out.println("Num = "+num);
+		System.out.println("FVAL = "+fval);
+		
+
+	}
+
+}
+
+*/

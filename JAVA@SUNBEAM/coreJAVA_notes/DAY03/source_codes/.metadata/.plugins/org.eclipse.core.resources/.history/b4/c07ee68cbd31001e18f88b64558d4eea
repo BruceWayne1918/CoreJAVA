@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+// Taking input from user
+// by using Scanner class
+
+public class Day3_5 {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc ;
+		System.out.println("Enter any int value:");
+		int num = sc.nextInt();
+		
+		System.out.println("Enter any float value : ");
+		float fval = sc.nextFloat();
+		
+		System.out.println("Enter any double value : ");
+		double dval = sc.nextDouble();
+		
+		System.out.println("Enter a String value : ");
+		String str = sc.next();
+		
+		System.out.println("Num = "+num);
+		
+
+	}
+
+}

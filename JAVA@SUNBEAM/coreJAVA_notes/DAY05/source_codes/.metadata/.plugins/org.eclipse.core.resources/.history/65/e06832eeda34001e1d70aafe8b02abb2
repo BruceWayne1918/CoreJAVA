@@ -1,0 +1,15 @@
+package p1;
+
+public class Faculty 
+{
+	private int fid;
+	private String name;
+
+	public Faculty()
+	{
+		
+	}
+	
+	
+	
+}

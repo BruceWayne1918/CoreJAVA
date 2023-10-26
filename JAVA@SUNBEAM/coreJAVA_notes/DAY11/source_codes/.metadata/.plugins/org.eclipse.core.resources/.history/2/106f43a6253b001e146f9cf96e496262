@@ -1,0 +1,19 @@
+
+public class Day11_7 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Core java Sunbeam");
+		try
+		{
+			Thread.sleep(2000);
+		}
+		catch(InterruptedException e)
+		{
+			System.out.println(e);
+		}
+			System.out.println("Trainer : Dr.Akshita Chanchlani");
+
+	}
+
+}

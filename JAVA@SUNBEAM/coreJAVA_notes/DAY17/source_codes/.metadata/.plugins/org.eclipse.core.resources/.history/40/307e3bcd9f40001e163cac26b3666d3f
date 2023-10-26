@@ -1,0 +1,25 @@
+class Person
+{
+	private String name;
+	private String org;
+	private String desg;
+	
+	Person()
+	{
+		this.name= "Default";
+		this.org="Default";
+		this.desg="Default";
+	}
+	
+	
+}
+
+
+public class Day17_1 {
+
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

@@ -1,0 +1,149 @@
+import java.util.Arrays;
+import java.util.List;
+import java.util.OptionalDouble;
+import java.util.OptionalInt;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+
+public class Day20_2 {
+
+	public static void main(String[] args) 
+	{
+		List<Integer> primeNumbers = Arrays.asList(5,7,11,13);
+		List<Integer> oddNumbers = Arrays.asList(11,13,25,17);
+		List<Integer> evenNumbers = Arrays.asList(20,24,86,48);
+		
+		
+		List<List<Integer>> listOfNumbers = Arrays.asList(primeNumbers,oddNumbers,evenNumbers);
+		System.out.println("Structure of List of List before flat operation");
+		System.out.println(listOfNumbers);
+		
+		OptionalInt max_numeber = listOfNumbers.stream()
+				.flatMap(list -> list.stream())
+				.mapToInt(i->i*1)
+				.max();
+		
+		OptionalInt min_numeber = listOfNumbers.stream()
+				.flatMap(list -> list.stream())
+				.mapToInt(i->i*1)
+				.min();
+		
+		
+		OptionalDouble avg_numeber = listOfNumbers.stream()
+				.flatMap(list -> list.stream())
+				.mapToInt(i->i*1)
+				.average();
+		
+		
+		
+		listOfNumbers.stream()
+				.flatMap(list -> list.stream())
+				.filter(n -> n>20)
+				.forEach(System.out::println);
+	
+		System.out.println("Maximum number after flattern = "+max_numeber);
+		System.out.println("Maximum number after flattern = "+min_numeber);
+		System.out.println("Maximum number after flattern = "+avg_numeber);
+	}
+}
+
+
+
+/*
+public class Day20_2 {
+
+	public static void main(String[] args) 
+	{
+		List<Integer> primeNumbers = Arrays.asList(5,7,11,13);
+		List<Integer> oddNumbers = Arrays.asList(1,3,5,7);
+		List<Integer> evenNumbers = Arrays.asList(2,4,6,8);
+		
+		
+		List<List<Integer>> listOfNumbers = Arrays.asList(primeNumbers,oddNumbers,evenNumbers);
+		System.out.println("Structure of List of List before flat operation");
+		System.out.println(listOfNumbers);
+		
+		long listOfints = listOfNumbers.stream()
+				.flatMap(list -> list.stream())
+				.mapToInt(i->i*1)
+				.count();
+		
+	
+		System.out.println("Total Elements after flattern = "+count);
+	}
+}
+
+
+*/
+
+/*
+
+public class Day20_2 {
+
+	public static void main(String[] args) 
+	{
+		List<Integer> primeNumbers = Arrays.asList(5,7,11,13);
+		List<Integer> oddNumbers = Arrays.asList(1,3,5,7);
+		List<Integer> evenNumbers = Arrays.asList(2,4,6,8);
+		
+		
+		List<List<Integer>> listOfNumbers = Arrays.asList(primeNumbers,oddNumbers,evenNumbers);
+		System.out.println("Structure of List of List before flat operation");
+		System.out.println(listOfNumbers);
+		
+		List<Integer> listOfints = listOfNumbers.stream()
+				.flatMap(list -> list.stream())
+				.collect(Collectors.toList());
+		
+	
+		System.out.println("Structure of List of List after flat operation");
+		System.out.println(listOfints);
+	}
+}
+
+*/
+
+/*
+// flatMap
+public class Day20_2 {
+
+	public static void main(String[] args) 
+	{
+		List<String> list = Arrays.asList("Java","Python","Trainer","Sunbeam");
+		list.stream()
+		.flatMap(s -> Stream.of(s.charAt(2))).forEach(System.out::println);
+	}
+}
+*/
+
+/*
+// average of all odd numbers 
+// take a range from user (start value and stop value)
+// create a stream
+// find the odd numbers
+// find average
+
+// IntStream.rangeClosed(start,stop) ==> filter ==> average() 
+
+public class Day20_2 {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter start value :");
+		int strt = sc.nextInt();
+
+		System.out.println("Enter stop value :");
+		int stop = sc.nextInt();
+		
+		double avg = IntStream.rangeClosed(strt, stop)
+				.filter(i-> i%2!=0).average().orElse(0);
+		
+		System.out.println("Average = "+avg);
+	}
+
+}
+*/

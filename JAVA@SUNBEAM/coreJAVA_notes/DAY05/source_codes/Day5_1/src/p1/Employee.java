@@ -1,0 +1,70 @@
+// if we do not specify the methods as public 
+// the methods will have visibility upto package level only
+// the methods will not be accessible outside the package
+
+package p1; // Employee class belongs to package p1 
+
+public class Employee 
+{
+	private String name;
+	private String desg;
+	private int id;
+	private int age;
+	private float salary;
+	
+	
+	Employee() 
+	{
+		
+	}
+	
+	
+	Employee(String name, String desg, int id, int age, float salary) 
+	{
+		
+		this.name = name;
+		this.desg = desg;
+		this.id = id;
+		this.age = age;
+		this.salary = salary;
+	}
+
+
+	String getName() {
+		return name;
+	}
+	void setName(String name) {
+		this.name = name;
+	}
+	String getDesg() {
+		return desg;
+	}
+	void setDesg(String desg) {
+		this.desg = desg;
+	}
+	int getId() {
+		return id;
+	}
+	void setId(int id) {
+		this.id = id;
+	}
+	int getAge() {
+		return age;
+	}
+	void setAge(int age) {
+		this.age = age;
+	}
+	float getSalary() {
+		return salary;
+	}
+	void setSalary(float salary) {
+		this.salary = salary;
+	}
+	
+	void disp()
+	{
+		System.out.println("Name = "+this.name+" Designation = "+this.desg);
+		System.out.println("Age = "+this.age+" ID = "+this.id+" Salary = "+this.salary);
+	}
+	
+}

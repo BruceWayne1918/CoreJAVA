@@ -1,0 +1,57 @@
+class Even extends Thread
+{
+	Even()
+	{
+		start();
+	}
+	public void run()
+	{
+		try
+		{
+			for(int i=0;i<10;i+=2)
+			{
+				System.out.println("Even = "+i +"\t"+this);
+				Thread.sleep(2500);
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+}
+
+
+class Odd extends Thread
+{
+	Odd()
+	{
+		start();
+	}
+	public void run()
+	{
+		try
+		{
+			for(int i=1;i<10;i+=2)
+			{
+				System.out.println("Odd = "+i +"\t"+this);
+				Thread.sleep(3000);
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+}
+
+public class Day21_3 {
+
+	public static void main(String[] args)
+	{
+		Even e1 = new Even();
+		Odd o1 = new Odd();
+
+	}
+
+}

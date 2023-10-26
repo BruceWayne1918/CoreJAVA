@@ -1,0 +1,25 @@
+class Demo<T,U>
+{
+	T n1;
+	U n2;
+	Demo(T n1, U n2)
+	{
+		this.n1=n1;
+		this.n2=n2;
+	}
+}
+
+public class Day10_3 {
+
+	public static void main(String[] args) 
+	{
+		Demo<Integer,Integer> d1 = new Demo<Integer,Integer>(5,4);
+		Demo<Float,Double> d2 = new Demo<Float,Double>(4.3f,2.5);
+		Demo<Integer,Double> d3 = new Demo<Integer,Double>(7,5.5);
+		Demo<Integer,String> d4 = new Demo<Integer,String>(123,"Sunbeam");
+		Demo<String,String> d5 = new Demo<String,String>("Akshita","CoreJava");
+		
+
+	}
+
+}

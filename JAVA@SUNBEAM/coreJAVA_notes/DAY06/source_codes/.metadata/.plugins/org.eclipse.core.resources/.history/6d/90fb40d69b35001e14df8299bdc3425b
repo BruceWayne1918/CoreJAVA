@@ -1,0 +1,25 @@
+
+class A
+{
+	final void disp()
+	{
+		
+	}
+}
+class B extends A
+{
+	void disp() // overridden method
+	{
+		
+	}
+}
+
+
+public class Day6_1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

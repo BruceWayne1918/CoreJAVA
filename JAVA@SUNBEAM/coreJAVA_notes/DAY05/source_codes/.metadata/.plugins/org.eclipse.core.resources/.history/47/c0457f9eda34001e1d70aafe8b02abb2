@@ -1,0 +1,21 @@
+package p1;
+
+public class Student 
+{
+	private int rollno;
+	private int marks;
+	public Student() 
+	{
+		
+	}
+	public Student(int rollno, int marks)
+	{
+		
+		this.rollno = rollno;
+		this.marks = marks;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,31 @@
+import java.io.File;
+import java.io.IOException;
+
+
+
+/*
+public class DAy15_2 {
+
+	public static void main(String[] args) 
+	{
+		try
+		{
+			String pathname = "Test.txt";
+			File fobj=new File(pathname);
+			boolean status = fobj.createNewFile();
+			System.out.println("Status = "+status);
+			status = fobj.delete();
+			System.out.println("File deleted = "+status);
+			
+		}
+		catch(IOException e)
+		{
+			System.out.println("Exception occured");
+		}
+
+	}
+
+}
+
+
+*/

@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+// Method reference to an instance method of an arbitrary object of perticular type
+
+public class Day19_3 {
+
+	public static void main(String[] args) 
+	{
+		String []strArr = {"akshita","sunbeam","pune","trainer","java","technical"};
+		Arrays.sort(strArr,String::compareTo);
+		System.out.println(strArr);
+		//Arrays.stream(strArr).forEach(System.out::println);
+	}
+
+}

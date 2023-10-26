@@ -1,0 +1,19 @@
+class product
+{
+	int pid;
+	float price;
+	
+	public product() 
+	{
+		super();
+	}
+	
+}
+public class Day12_14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

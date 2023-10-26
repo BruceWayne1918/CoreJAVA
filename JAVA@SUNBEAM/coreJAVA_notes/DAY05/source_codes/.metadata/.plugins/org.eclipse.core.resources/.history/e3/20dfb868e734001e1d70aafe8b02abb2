@@ -1,0 +1,26 @@
+
+class Bank
+{
+	static int balance; // static field
+	// static fields must be initialized only once through out the life cycle
+	
+	int accno; // non static field 
+	Bank()
+	{
+		this.accno=1;	
+		balance = 5000;
+	}
+	
+}
+
+public class Day5_5 {
+
+	public static void main(String[] args)
+	{
+		Bank b1 = new Bank();
+		Bank b2=new Bank();
+		
+		
+	}
+
+}

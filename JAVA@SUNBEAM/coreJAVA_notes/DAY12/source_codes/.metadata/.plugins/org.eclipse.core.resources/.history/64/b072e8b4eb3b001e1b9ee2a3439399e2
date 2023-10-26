@@ -1,0 +1,40 @@
+import java.util.ArrayList;
+
+// ArrayList and its methods
+
+public class Day12_1 {
+
+	public static void main(String[] args)
+	{
+		//sample data int[]
+		int data[]= {10,23,22,44,12,9,8,15,12,17};
+		// data is a reference who can hold P type
+		// create an ArrayList(AL) from array
+		
+		ArrayList<Integer> l1 = new ArrayList<Integer>();
+		
+		// data ==> int ===> P type
+		//l1 ==> ArrayList ===> Integer ==> NP type
+		// it is implicitly converting P to NP
+		// P to NP ==> AutoBoxing 
+		//generated AL from array 
+		for(int i : data)
+			l1.add(i);
+				
+		System.out.println("L1 = "+l1);
+		l1.add(4,999);
+		System.out.println("L1 = "+l1);
+		l1.add(0,888);
+		System.out.println("L1 = "+l1);
+		l1.add(14,777);
+		// if we supply index beyong the size 
+		// AIOOBE 
+		System.out.println("L1 = "+l1);
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,42 @@
+// Method reference to an instance method of an object
+
+
+@FunctionalInterface
+interface MyInterface
+{
+	void display();
+}
+
+
+class Mobile
+{
+	String name;
+	int price;
+	Mobile(String name,int price)
+	{
+		this.name=name;
+		this.price=price;
+	}
+	
+	void dispDetailsMobile()
+	{
+		System.out.println("Name of Mobile = "+this.name+" Price = "+this.price);
+	}
+}
+
+
+
+
+
+public class Day18_10 
+{
+
+	 	 
+	public static void main(String[] args) 
+	{
+		Day18_10 obj = new Day18_10();
+		MyInterface ref = obj::m1;
+		ref.display();
+	}
+
+}

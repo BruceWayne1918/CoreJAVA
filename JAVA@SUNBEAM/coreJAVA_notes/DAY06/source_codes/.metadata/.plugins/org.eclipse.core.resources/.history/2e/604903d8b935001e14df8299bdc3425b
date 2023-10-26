@@ -1,0 +1,14 @@
+
+public class Day6_11 {
+
+	static int sum(int a,int b)
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		int result = sum(10,20);
+		System.out.println("Result = "+result);
+	}
+
+}

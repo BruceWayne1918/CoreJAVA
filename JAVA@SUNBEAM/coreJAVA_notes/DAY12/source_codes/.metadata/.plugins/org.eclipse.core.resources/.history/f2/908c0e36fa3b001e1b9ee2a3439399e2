@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+class Student
+{
+	int rollno;
+	int marks;
+	int age;
+	
+	
+} //end of Student class
+
+
+
+public class Day12_8 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList l1 = new ArrayList();
+		
+
+	}
+
+}

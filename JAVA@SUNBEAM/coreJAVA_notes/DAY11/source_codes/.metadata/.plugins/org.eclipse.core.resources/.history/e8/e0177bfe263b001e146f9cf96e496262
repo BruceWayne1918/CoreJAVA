@@ -1,0 +1,11 @@
+
+public class Day11_8 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Core java Day11");
+		Thread.sleep(3000);
+		System.out.println("topic: exception handling");
+	}
+
+}

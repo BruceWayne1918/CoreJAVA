@@ -1,0 +1,18 @@
+// Method Reference to a Constructor
+
+interface MyInterface
+{
+	display(String s);
+}
+
+
+public class Day19_4 
+{
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

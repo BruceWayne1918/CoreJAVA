@@ -1,0 +1,12 @@
+import java.util.Arrays;
+
+public class Day19_8 {
+
+	public static void main(String[] args) 
+	{
+		List<Integer> numbers = Arrays.asList(11,22,33,44,55,66,77,88,99);
+		
+
+	}
+
+}

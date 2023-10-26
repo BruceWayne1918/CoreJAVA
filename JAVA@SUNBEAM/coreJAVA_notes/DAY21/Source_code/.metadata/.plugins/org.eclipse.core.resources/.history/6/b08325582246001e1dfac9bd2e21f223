@@ -1,0 +1,33 @@
+
+public class Day21_1 {
+
+	public static void main(String[] args) 
+	{
+		Thread th = Thread.currentThread();
+		System.out.println("Name = "+th.getName());
+		System.out.println("ID  = "+th.getId());
+		System.out.println("Thread Group = "+th.getThreadGroup());
+		System.out.println("Class = "+th.getClass());
+		System.out.println("State = "+th.getState().name());
+	}
+}
+
+
+
+
+/*
+public class Day21_1 {
+
+	public static void main(String[] args) 
+	{
+		Thread th = Thread.currentThread();
+		//System.out.println(th);
+		//thread's name, priority, and thread group
+		// main , 5 , main
+		System.out.println(th.toString());
+		
+	}
+
+}
+
+*/

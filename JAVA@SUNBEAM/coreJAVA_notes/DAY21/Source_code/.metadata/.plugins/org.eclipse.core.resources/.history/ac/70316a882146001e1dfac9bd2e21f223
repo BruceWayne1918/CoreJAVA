@@ -1,0 +1,13 @@
+
+public class Day21_1 {
+
+	public static void main(String[] args) 
+	{
+		Thread th = Thread.currentThread();
+		System.out.println(th);
+		//thread's name, priority, and thread group
+		// main , 5 , main
+		
+	}
+
+}

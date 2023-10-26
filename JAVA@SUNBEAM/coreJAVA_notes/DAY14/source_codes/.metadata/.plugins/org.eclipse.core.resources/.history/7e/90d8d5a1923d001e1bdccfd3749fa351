@@ -1,0 +1,16 @@
+class Movie 
+{
+	private double rating;
+	private String name;
+	private int year;
+	
+	
+}
+public class Day14_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

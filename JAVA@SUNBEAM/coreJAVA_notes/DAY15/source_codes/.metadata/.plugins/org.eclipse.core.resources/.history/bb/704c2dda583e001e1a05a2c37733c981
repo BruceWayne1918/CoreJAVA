@@ -1,0 +1,24 @@
+// write a single byte in binary file ==> FileOutputStream 
+// read a single byte from a binary file ==> FileInputStream
+// 1. Write  2. Read 
+
+
+public class Day15_4 
+{
+
+	Scanner sc = new Scanner(System.in);
+	
+	menuList()
+	{
+		System.out.println("Please enter Choice 0.Exit 1.Write 2.Read ");
+		
+	}
+	
+	
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

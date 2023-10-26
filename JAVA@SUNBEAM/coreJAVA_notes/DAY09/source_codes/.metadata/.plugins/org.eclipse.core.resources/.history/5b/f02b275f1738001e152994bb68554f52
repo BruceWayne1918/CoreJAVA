@@ -1,0 +1,22 @@
+class Outer
+{
+	Outer()
+	{
+		System.out.println("Outer class constructor");
+	}
+	class Inner
+	{
+		Inner()
+		{
+			System.out.println("Inner class Constructor");
+		}
+	}
+}
+public class Day9_5 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

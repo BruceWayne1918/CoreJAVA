@@ -1,0 +1,49 @@
+package p1;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Day20_4
+{
+	
+	static EmpPojo parseEmp(String line)
+	{
+		try
+		{
+			
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+
+	public static void main(String[] args)
+	{
+		File f = new File(args[0]);
+		
+		ArrayList<EmpPojo> empList = new ArrayList<EmpPojo>();
+		
+		try(Scanner sc = new Scanner(f))
+		{
+			while(sc.hasNextLine())
+			{
+				String line = sc.nextLine();
+				EmpPojo e = parseEmp(line);
+				if(e!=null)
+					empList.add(e);
+			}
+		} //end of try
+		
+		catch(Exception e)
+		{
+			System.out.println("Exception occured");
+		} 
+				
+		System.out.println("Employee Records");
+		for(EmpPojo e : empList)
+			System.out.println(e);
+	} // end of main 
+
+} //end of class 

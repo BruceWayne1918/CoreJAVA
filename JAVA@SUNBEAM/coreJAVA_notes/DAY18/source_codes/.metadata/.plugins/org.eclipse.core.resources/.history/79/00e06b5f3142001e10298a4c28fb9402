@@ -1,0 +1,15 @@
+interface TestInterface
+{
+	public void square(int a);
+}
+
+
+
+public class Day18_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

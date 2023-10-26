@@ -1,0 +1,12 @@
+package p1;
+
+public class Circle extends BoundedShape
+{
+	private int radius;
+	Circle(int x,int y,int radius)
+	{
+		super(x,y);
+		this.radius=radius;
+	}
+	
+}

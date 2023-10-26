@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+public class Day12_9 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> l1 = new ArrayList<Integer>();
+		
+		l1.add(11);
+		l1.add(22);
+		l1.add(33);
+		l1.add(44);
+		System.out.println("L1 = "+l1);
+		l1.add(55);
+		
+		
+
+	}
+
+}

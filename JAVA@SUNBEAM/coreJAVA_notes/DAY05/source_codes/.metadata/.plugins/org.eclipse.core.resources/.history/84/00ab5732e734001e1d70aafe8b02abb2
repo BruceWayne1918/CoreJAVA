@@ -1,0 +1,21 @@
+
+class Bank
+{
+	static int balance; // static field
+	int accno; // non static field 
+	Bank()
+	{
+		this.accno=1;	
+	}
+	
+}
+
+public class Day5_5 {
+
+	public static void main(String[] args)
+	{
+		Bank b1 = new Bank();
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+
+class Bank
+{
+	static int balance; // static field
+	int accno;
+	Bank()
+	{
+		this.accno=1;	
+	}
+	
+}
+
+
+public class Day5_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

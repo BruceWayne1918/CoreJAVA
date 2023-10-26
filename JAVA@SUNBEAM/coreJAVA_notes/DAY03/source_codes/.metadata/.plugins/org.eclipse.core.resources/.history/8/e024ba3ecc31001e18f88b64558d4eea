@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+// getter and setter
+class Employee
+{
+	private int id;
+	private float salary;
+
+	void acceptRecord()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter ID ");
+		id = sc.nextInt();
+		System.out.println("Enter Salary ");
+		salary = sc.nextFloat();
+	}
+	
+	void dispRecord()
+	{
+		System.out.println("Id = "+id+" Salary = "+salary);
+		
+	}
+}
+public class Day3_7 {
+
+	public static void main(String[] args) {
+		Employee e1=new Employee();
+		e1.acceptRecord();
+		e1.dispRecord();
+	}
+
+}

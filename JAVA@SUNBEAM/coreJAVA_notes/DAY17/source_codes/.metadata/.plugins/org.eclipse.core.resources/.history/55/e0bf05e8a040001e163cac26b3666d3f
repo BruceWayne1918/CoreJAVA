@@ -1,0 +1,122 @@
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.util.Scanner;
+
+class Person
+{
+	private String name;
+	private String org;
+	private String desg;
+	
+	Person()
+	{
+		this.name= "Default";
+		this.org="Default";
+		this.desg="Default";
+	}
+
+	public Person(String name, String org, String desg) {
+		super();
+		this.name = name;
+		this.org = org;
+		this.desg = desg;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getOrg() {
+		return org;
+	}
+
+	public void setOrg(String org) {
+		this.org = org;
+	}
+
+	public String getDesg() {
+		return desg;
+	}
+
+	public void setDesg(String desg) {
+		this.desg = desg;
+	}
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", org=" + org + ", desg=" + desg + "]";
+	}
+	
+	void accept()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the name of person");
+		this.name=sc.next();
+		
+		System.out.println("Enter the organization of person");
+		this.org=sc.next();
+		
+		System.out.println("Enter the designation of person");
+		this.desg=sc.next();
+		
+		
+	}
+	
+	
+}
+
+
+public class Day17_1 
+{
+	static Scanner sc = new Scanner(System.in);
+	static final String pathName="Records.dat";
+	
+	public static void writeRecord(Person p) throws FileNotFoundException, IOException
+	{
+		try(ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(new File(pathName))));)
+		{
+			
+			oos.writeObject(p);
+		}
+	}
+	
+	public static void readRecord() throws IOException, ClassNotFoundException
+	{
+		try(ObjectInputStream ois = new ObjectInputStream(new BufferedInputStream(new FileInputStream(new File(pathName))));)
+		{
+			Employee eobj = (Employee) ois.readObject();
+			System.out.println("Eobj = "+eobj);
+			
+			   
+		}
+	}
+	
+	static int menuList()
+	{
+		int choice;
+		System.out.println("Please enter choice 0.Exit 1.Write 2.Read");
+		choice = sc.nextInt();
+		return choice;
+	}
+	
+	public static void main(String[] args)
+	{
+		Person pobj = new Person();
+		System.out.println(pobj);
+		
+		System.out.println("Writing the record to the file");
+		
+		writeRecord(pobj);
+		readRecord(pobj);
+		
+	}
+
+}
