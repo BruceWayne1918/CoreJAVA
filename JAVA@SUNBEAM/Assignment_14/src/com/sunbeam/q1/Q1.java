@@ -39,7 +39,7 @@ public class Q1 {
 				{
 				case INSERT:
 //					con.setAutoCommit(false);
-					String sql = "insert into candidates values (null,?,?,?);"; // parameterized query
+					String sql = "insert into candidates values (default,?,?,?);"; // parameterized query
 
 					try (PreparedStatement stmt = con.prepareStatement(sql))
 
