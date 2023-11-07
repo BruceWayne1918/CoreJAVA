@@ -32,7 +32,8 @@ public class Q1 {
 		{
 
 			boolean flag = true;
-			while (flag) {
+			while (flag) 
+			{
 
 				switch (MyMenu.menu1())
 

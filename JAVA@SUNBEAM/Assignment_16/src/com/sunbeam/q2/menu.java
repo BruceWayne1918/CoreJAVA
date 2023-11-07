@@ -1,0 +1,17 @@
+package com.sunbeam.q2;
+
+public enum menu 
+{
+	EXIT,//0
+	ADD_BOOK,//1
+	DISPLAY,//2
+	SEARCH_BOOK,//3,
+	DELETE_BOOK_ISBN,//4
+	DELETE_BOOK_INDEX,//5
+	DELETE_BOOK_NAME,//6
+	SORTBY_ISBN,//7
+	SORTBY_PRICE_DESC,//8
+	REVERSE,//9
+	SAVE_IN_FILE,//10
+	LOAD_FROM_FILE//11
+}
